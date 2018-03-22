@@ -7,18 +7,20 @@
 
       </div>
       <div class = "center">
-
+        <slidercmp/>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import slidercmp from "../components/slidercmp";
 
 export default {
   name: "Home",
   components: {
-  }
+    slidercmp
+  },
 };
 </script>
 
@@ -32,6 +34,7 @@ export default {
   color: #2c3e50;
   margin-top: 0px;
 }
+
 .maingrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 10px 220px;
@@ -50,5 +53,7 @@ export default {
   grid-column: 1 / 5;
   grid-row: 2 / 11;
   border: 2px solid whitesmoke;
+  overflow: hidden;
+  position: relative;
 }
 </style>
