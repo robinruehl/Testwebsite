@@ -1,6 +1,5 @@
 <template>
-  <div class ="slidercmp">
-    <p class = "text1">1</p>
+  <div class="slideshow">
   </div>
 </template>
 
