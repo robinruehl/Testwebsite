@@ -7,7 +7,7 @@ import Fun from "./routes/fun";
 import Home from "./routes/home";
 import Mission from "./routes/mission";
 import Creator from "./routes/creator";
-import Gamemodes from "./routes/fun/gamemodes";
+//import Gamemodes from "./routes/fun/gamemodes";
 
 Vue.use(VueRouter);
 
@@ -18,14 +18,14 @@ const routes = [
   { path: "/", name: 'Home', component: Home },
   { path: "/mission", name: 'Mission', component: Mission },
   { path: "/creator", name: 'Creator', component: Creator },
-  { path: "/fun/gamemodes", name: 'Gamemodes', component: Gamemodes }
+  //{ path: "/fun/gamemodes", name: 'Gamemodes', component: Gamemodes }
   ];
 
 const router = new VueRouter({
   routes
 });
 
-/* eslint-disable no-new */
+
 new Vue({
   el: "#app",
   components: { App },

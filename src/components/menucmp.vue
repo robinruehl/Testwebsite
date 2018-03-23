@@ -45,7 +45,7 @@ export default {
       var i;
       var dropdown = document.getElementsByClassName("dropdown")
       var droped = document.getElementsByClassName("droped");
-      var menu = document.getElementsByClassName("menu");
+      //var menu = document.getElementsByClassName("menu");
       for (i = 0; i < droped.length; i++) {
         droped[i].style.display = "none";  
       }
