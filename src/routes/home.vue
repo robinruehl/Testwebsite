@@ -1,6 +1,5 @@
 <template>
   <div id = "home">
-  home
     <div class = "maingrid">
 
       <div class = "sidebar">
@@ -40,7 +39,7 @@ export default {
 .maingrid {
   display: grid;
   position: reletave;
-    //box-shadow: 0px 0px 1px 2px #888888;
+  //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
   min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
@@ -69,7 +68,7 @@ export default {
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1350px;
   min-width: 740px;
-  max-height: 836px;
+  max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
 </style>

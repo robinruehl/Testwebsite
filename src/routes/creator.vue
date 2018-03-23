@@ -1,6 +1,5 @@
 <template>
   <div id = "creator">
-  creator
     <div class = "maingrid">
 
       <div class = "sidebar">

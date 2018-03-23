@@ -2,28 +2,28 @@
   <div class = "menu">
   <p>FUN</p>
     <div class = "dropdown 1">
-      <p class = "gamemodes" @click="setcontent(1)">&#8594; Gamemodes </p>
+      <p class = "gamemodes droper" @click="setcontent(1)">&#8594; Gamemodes </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
     </div>
     <div class = "dropdown 2">
-      <p class = "maps" @click="setcontent(2)" > &#8594; Maps </p>
+      <p class = "maps droper" @click="setcontent(2)" > &#8594; Maps </p>
       <p class = "droped 2 fade"> test </p>
       <p class = "droped 2 fade"> test </p>
       <p class = "droped 2 fade"> test </p>
       <p class = "droped 2 fade"> test </p>
     </div>
     <div class = "dropdown 3">
-      <p class = "servers" @click="setcontent(3)"> &#8594; Servers </p>
+      <p class = "servers droper" @click="setcontent(3)"> &#8594; Servers </p>
       <p class = "droped 3 fade"> test </p>
       <p class = "droped 3 fade"> test </p>
       <p class = "droped 3 fade"> test </p>
       <p class = "droped 3 fade"> test </p>
     </div>
     <div class = "dropdown 4">
-      <p class = "strats" @click="setcontent(4)"> &#8594; Strats </p>
+      <p class = "strats droper" @click="setcontent(4)"> &#8594; Strats </p>
       <p class = "droped 4 fade"> test </p>
       <p class = "droped 4 fade"> test </p>
       <p class = "droped 4 fade"> test </p>
@@ -69,22 +69,36 @@ export default {
 
 .menu {
   background-color: white;
-  border: 2px solid whitesmoke;
+  border: 2px solid gainsboro;
   max-width: 200px;
   font-size: 25px;
   margin: 10px 0px;
+  box-shadow: -1px -1px 1px 1px #888888;
+  color: whitesmoke;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .dropdown {
   font-size: 18px;
   padding: 0px 0px;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .droped {
   display: none;
   font-size: 15px;
-  background-color: gainsboro;
-  border: 2px solid whitesmoke;
+  background-color: deepskyblue;
+  border: 2px solid gainsboro;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.droper {
+  background-color: deepskyblue;
+  border: 2px solid gainsboro;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .fade {

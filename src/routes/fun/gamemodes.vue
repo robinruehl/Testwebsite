@@ -1,18 +1,17 @@
-dd<template>
+<template>
   <div id="fun">
     fun
     <div class = "maingrid">
 
       <div class = "center">
-        <menucmp/>
-        <router-view/>
+      
       </div>
     </div>
   </div>
 </template>
 
 <script>
-//import menucmp from ".../components/menucmp";
+//import menucmp from "/components/menucmp";
 
 export default {
   name: "Gamemodes",

@@ -1,11 +1,12 @@
 dd<template>
   <div id="fun">
-    fun
     <div class = "maingrid">
 
       <div class = "center">
         <menucmp/>
-        <router-view/>
+        <div>
+          <router-view/>
+        </div>
       </div>
     </div>
   </div>
@@ -52,7 +53,7 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1518px;
-  min-width: 1000px;
+  min-width: 900px;
   max-height: 836px;
   margin: 1px 0px 0px 0px;
   display: grid;

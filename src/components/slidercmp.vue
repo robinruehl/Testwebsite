@@ -2,17 +2,17 @@
   <div class="slideshow">
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="../assets/Test2.jpg" style="width:100%">
+      <img src="https://raw.githubusercontent.com/robinruehl/CSGOFUNBASE/50c00eaf95bd0d398c2fac6828ffd6be0bc0a764/Test1.jpg" style="width:100%">
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="../assets/Test2.jpg" style="width:100%">
+      <img src="https://raw.githubusercontent.com/robinruehl/CSGOFUNBASE/50c00eaf95bd0d398c2fac6828ffd6be0bc0a764/Test2.jpg" style="width:100%">
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="../assets/Test3.jpg" style="width:100%">
+      <img src="https://raw.githubusercontent.com/robinruehl/CSGOFUNBASE/50c00eaf95bd0d398c2fac6828ffd6be0bc0a764/Test3.jpg" style="width:100%">
     </div>
 
     <a class="prev" @click="plusSlides(-1)">&#8592;</a>
@@ -92,40 +92,44 @@ export default {
 .next {
   font-size: 30px;
   position: absolute;
-  margin: 10px 60px;
+  margin: -15px 50px;
   padding: 3px;
   color: black;
   cursor: e-resize;
   transition: color, text-shadow 0.6s ease;
 }
+
 .prev {
   font-size: 30px;
   position: absolute;
-  margin: 10px -90px;
+  margin: -15px -86px;
   padding: 3px;
   color: black;
   cursor: w-resize;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
   transition: color, text-shadow 0.6s ease;
 }
+
 .next:hover {
   font-size: 30px;
   position: absolute;
-  margin: 10px 60px;
+  margin: -15px 50px;
   padding: 3px;
   color: deepskyblue;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   cursor: e-resize;
 }
+
 .prev:hover {
   font-size: 30px;
   position: absolute;
-  margin: 10px -90px;
+  margin: -15px -86px;
   padding: 3px;
   color: deepskyblue;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   cursor: w-resize;
 }
+
 .text {
   color: black;
   font-size: 15px;
@@ -136,6 +140,7 @@ export default {
   text-align: center;
   margin: 40px -25px;
 }
+
 .numbertext {
   color: black;
   font-size: 12px;
@@ -143,6 +148,7 @@ export default {
   position: absolute;
   top: 0;
 }
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -162,13 +168,13 @@ export default {
 
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
+  height: 12px;
+  width: 12px;
   background-color: #bbb;
-  border-radius: 50%;
+  border-radius: 40%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin: 30px 5px;
+  margin: 2px 7px;
 }
 
 .active, .dot:hover {

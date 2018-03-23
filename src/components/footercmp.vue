@@ -39,7 +39,7 @@ export default {
     border-bottum-width: 0px;
     box-shadow: 0px 1px 1px 2px #888888;
     max-width: 1520px;
-    min-width: 1000px;
+    min-width: 934px;
     
 }
 
