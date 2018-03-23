@@ -24,10 +24,9 @@ export default {
 <style scoped>
 
 .buttoncreator {
-  background-color: deepskyblue; /* Green */
-  border: solid;
+  background-color: deepskyblue;
   border-radius: 3px;
-  border-width: 2px;
+  border: 2px solid gainsboro;
   color: white;
   text-decoration: none;  
   display: inline-block;
@@ -35,7 +34,7 @@ export default {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
   cursor: pointer;
-  box-shadow: -1px -1px #888888;
+  box-shadow: -2px -2px 3px #888888;
   margin: 5px 150px;
   padding-left: 23px;
   padding-right: 0px;

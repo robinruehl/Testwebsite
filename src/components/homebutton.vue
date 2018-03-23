@@ -26,9 +26,8 @@ export default {
 
 .buttonhome {
     border-radius: 3px;
-    background-color: deepskyblue; /* Green */
-    border: solid;
-    border-width: 2px;
+    background-color: deepskyblue;
+    border: 2px solid gainsboro;
     color: white;
     padding-left: 12px;
     padding-right: 12px;
@@ -40,9 +39,8 @@ export default {
     font-size: 25px;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
-    margin: 0px 0px;
     cursor: pointer;
-    box-shadow: -1px -1px #888888
+    box-shadow: -2px -2px 3px #888888;
 }
 
 .hometext {

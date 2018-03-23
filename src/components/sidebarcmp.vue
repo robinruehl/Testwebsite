@@ -1,6 +1,6 @@
 <template>
   <div id="sidebar">
-    <p>1</p>
+    <p>test</p>
   </div>
 </template>
 
@@ -24,8 +24,19 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style >
 
-div.sidebar {
-
+#sidebar {
+  border-radius: 0px 0px 0px 0px;
+  background-color: gainsboro;
+  padding: 389px 0px;
+  max-height: ;
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: ;
+  border: solid;
+  color: whitesmoke;
+  border-width: 2x;
+  margin: auto;
+  box-shadow: 1px -1px 1px 1px #888888
 }
 
 </style>

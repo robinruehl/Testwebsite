@@ -33,26 +33,27 @@ export default {
 <style >
 
 .header {
-    border-radius: 10px 10px 0 0;
-    background-color: gainsboro;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    //border-radius: 10px 10px 0 0;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
     display: grid;
     grid-template-columns: 20px 200px 20px 200px 20px 200px 20px 200px 20px;
     grid-template-rows: 20px 20px 20px;
     border: solid;
     color: whitesmoke;
-    border-left-width: 2px;
-    border-right-width: 2px;
-    border-top-width: 2px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 4px;
     border-bottum-width: 0px;
-    box-shadow: -1px -1px #888888
+    position: reletave;
+    //box-shadow: 0px 0px 1px 2px #888888;
+    max-width: 1580px;
+    min-width: 1000px;
 }
 
 
 .buttonhome {
-
+  marign: auto;
 }
 .buttonfun {
   margin: 5px 100px;
