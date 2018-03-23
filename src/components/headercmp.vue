@@ -39,16 +39,11 @@ export default {
     display: grid;
     grid-template-columns: 20px 200px 20px 200px 20px 200px 20px 200px 20px;
     grid-template-rows: 20px 20px 20px;
-    border: solid;
-    color: whitesmoke;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-top-width: 4px;
-    border-bottum-width: 0px;
     position: reletave;
     //box-shadow: 0px 0px 1px 2px #888888;
     max-width: 1580px;
     min-width: 1000px;
+    margin: auto;
 }
 
 
@@ -56,7 +51,7 @@ export default {
   marign: auto;
 }
 .buttonfun {
-  margin: 5px 100px;
+  margin: 5px 110px;
   padding-left: 23px;
   padding-right: 23px;
   padding-top: 0px;
@@ -65,7 +60,7 @@ export default {
 }
 
 .buttonmission {
-  margin: 5px 15px;
+  margin: 5px 25px;
   padding-left: 23px;
   padding-right: 0px;
   padding-top: 0px;
@@ -73,7 +68,7 @@ export default {
 }
 
 .buttoncreator {
-
+  margin: 5px 160px;
 }
 
 .hometext {

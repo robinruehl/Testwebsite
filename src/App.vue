@@ -1,8 +1,12 @@
 <template>
   <div id="app">
-    <headercmp/>
-    <router-view/>
-    <footercmp/>
+    <div class = "headerapp">
+      <headercmp/>
+    </div>
+    <router-view class = "router"/>
+    <div class = "footerapp">
+      <footercmp/>
+    </div>  
   </div>
 </template>
 
@@ -32,12 +36,24 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  margin: auto;
-  max-width: 1580px;
-  min-width: 1020px;
+  margin: 0px -10px 0px -10px;
   //border: solid;
   //color: whitesmoke;
 
+}
+
+.headerapp {
+  background-color: white;
+  border: solid;
+  color: whitesmoke;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 4px;
+  border-bottum-width: 0px;
+}
+
+.footerapp {
+  margin: 0px 30px 0px 30px;
 }
 
 </style>

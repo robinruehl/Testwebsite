@@ -45,6 +45,7 @@ export default {
   min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
   grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px auto 10px;
+  margin: auto;
 }
 
 .sidebar {

@@ -12,12 +12,12 @@ dd<template>
 </template>
 
 <script>
-import menucmp from "../components/menucmp";
+//import menucmp from ".../components/menucmp";
 
 export default {
-  name: "Fun",
+  name: "Gamemodes",
   components: {
-    menucmp,
+    //menucmp,
   }
 };
 </script>
@@ -35,7 +35,6 @@ export default {
 .maingrid {
   display: grid;
   position: reletave;
-  //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
   min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
@@ -64,25 +63,5 @@ export default {
   grid-column: 2/3;
   grid-row: 1/3;
 }
-
-/*.p121 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-}
-
-.p122 {
-  grid-column: 4/5;
-  grid-row: 2/3;
-}
-
-.p123 {
-  grid-column: 5/6;
-  grid-row: 2/3;
-}
-
-.p124 {
-  grid-column: 6/7;
-  grid-row: 2/3;
-}*/
 
 </style>

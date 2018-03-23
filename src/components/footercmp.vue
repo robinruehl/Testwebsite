@@ -27,7 +27,7 @@ export default {
 #footercmp {
     border-radius: 0 0 10px 10px;
     background-color: gainsboro;
-    margin: 0px 30px 0px 30px;
+    margin: auto;
     display: grid;
     grid-template-columns: 20px 200px 20px 200px 20px 200px 20px 200px 20px;
     grid-template-rows: 20px 20px 20px;
@@ -38,9 +38,9 @@ export default {
     border-top-width: 2px;
     border-bottum-width: 0px;
     box-shadow: 0px 1px 1px 2px #888888;
-    max-width: 1580px;
-    min-width: 950px;
-    justify-content: flex-start;
+    max-width: 1520px;
+    min-width: 1000px;
+    
 }
 
 </style>

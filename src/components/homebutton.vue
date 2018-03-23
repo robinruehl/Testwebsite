@@ -41,6 +41,7 @@ export default {
     line-height: 0px;
     cursor: pointer;
     box-shadow: -2px -2px 3px #888888;
+    margin: 0px 10px;
 }
 
 .hometext {

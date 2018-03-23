@@ -35,7 +35,6 @@ export default {
   line-height: 0px;
   cursor: pointer;
   box-shadow: -2px -2px 3px #888888;
-  margin: 5px 150px;
   padding-left: 23px;
   padding-right: 0px;
   padding-top: 0px;
