@@ -7,7 +7,8 @@ import Fun from "./routes/fun";
 import Home from "./routes/home";
 import Mission from "./routes/mission";
 import Creator from "./routes/creator";
-//import Gamemodes from "./routes/fun/gamemodes";
+import Gamemodes from "./fun/gamemodes";
+import Gamemodestest from "./fun/gamemodestest";
 
 Vue.use(VueRouter);
 
@@ -18,7 +19,8 @@ const routes = [
   { path: "/", name: 'Home', component: Home },
   { path: "/mission", name: 'Mission', component: Mission },
   { path: "/creator", name: 'Creator', component: Creator },
-  //{ path: "/fun/gamemodes", name: 'Gamemodes', component: Gamemodes }
+  { path: "/fun/gamemodes", name: 'Gamemodes', component: Gamemodes },
+  { path: "/fun/gamemodes/test", name: 'Test1', component: Gamemodestest },
   ];
 
 const router = new VueRouter({

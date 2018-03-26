@@ -174,7 +174,7 @@ export default {
   border-radius: 40%;
   display: inline-block;
   transition: background-color 0.6s ease;
-  margin: 2px 7px;
+  margin: 4px 7px;
 }
 
 .active, .dot:hover {

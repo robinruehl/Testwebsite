@@ -25,7 +25,7 @@ export default {
 <style scoped>
 
 .buttonmission {
-    background-color: deepskyblue;
+    background-color: whitesmoke;
     border-radius: 3px;
     border: 2px solid gainsboro;
     color: white;
@@ -35,8 +35,22 @@ export default {
     font-size: 25px;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
-    cursor: pointer;
-    box-shadow: -2px -2px 3px #888888;
+    //cursor: pointer;
+    width: 115px;
+}
+
+.buttonmission:hover {
+    background-color: gainsboro;
+    border-radius: 3px;
+    border: 2px solid whitesmoke;
+    color: white;
+    text-align: left;
+    text-decoration: none;  
+    display: inline-block;
+    font-size: 25px;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 0px;
+    //cursor: pointer;
     width: 115px;
 }
 

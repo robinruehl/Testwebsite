@@ -17,7 +17,7 @@ import menucmp from "../components/menucmp";
 import funcentercmp from "../components/funcentercmp";
 
 export default {
-  name: "Fun",
+  name: "Gamemodes",
   components: {
     menucmp,
     funcentercmp
@@ -26,7 +26,6 @@ export default {
 </script>
 
 <style scoped>
-
 #fun {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

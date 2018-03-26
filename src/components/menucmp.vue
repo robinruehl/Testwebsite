@@ -1,9 +1,11 @@
 <template>
   <div class = "menu">
-  <p>FUN</p>
+    <p>FUN</p>
     <div class = "dropdown 1">
       <p class = "gamemodes droper" @click="setcontent(1)">&#8594; Gamemodes </p>
-      <p class = "droped 1 fade"> test </p>
+        <router-link :to="{name: 'Test1'}" >
+          <p class = "droped 1 fade"> Test Page </p>
+        </router-link>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
@@ -68,13 +70,13 @@ export default {
 <style scoped>
 
 .menu {
-  background-color: white;
+  background-color: whitesmoke;
   border: 2px solid gainsboro;
   max-width: 200px;
   font-size: 25px;
   margin: 10px 0px;
   box-shadow: -1px -1px 1px 1px #888888;
-  color: whitesmoke;
+  color: black;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -88,10 +90,11 @@ export default {
 .droped {
   display: none;
   font-size: 15px;
-  background-color: deepskyblue;
+  background-color: lightblue;
   border: 2px solid gainsboro;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
 .droper {
@@ -103,9 +106,9 @@ export default {
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.4s;
+  -webkit-animation-duration: 0.6s;
   animation-name: fade;
-  animation-duration: 0.4s;
+  animation-duration: 0.6s;
 }
 
 @-webkit-keyframes fade {

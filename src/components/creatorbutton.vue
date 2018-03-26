@@ -24,17 +24,34 @@ export default {
 <style scoped>
 
 .buttoncreator {
-  background-color: deepskyblue;
+  background-color: whitesmoke;
   border-radius: 3px;
   border: 2px solid gainsboro;
   color: white;
   text-decoration: none;  
   display: inline-block;
   font-size: 25px;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  cursor: pointer;
-  box-shadow: -2px -2px 3px #888888;
+  //cursor: pointer;
+  padding-left: 23px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  width: 130px;
+}
+
+.buttoncreator:hover {
+  background-color: gainsboro;
+  border-radius: 3px;
+  border: 2px solid whitesmoke;
+  color: white;
+  text-decoration: none;  
+  display: inline-block;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 0px;
+  //cursor: pointer;
   padding-left: 23px;
   padding-right: 0px;
   padding-top: 0px;

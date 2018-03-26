@@ -21,12 +21,12 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 
 .buttonhome {
     border-radius: 3px;
-    background-color: deepskyblue;
+    background-color: whitesmoke;
     border: 2px solid gainsboro;
     color: white;
     padding-left: 12px;
@@ -37,10 +37,28 @@ export default {
     text-decoration: none;  
     display: inline-block;
     font-size: 25px;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
-    cursor: pointer;
-    box-shadow: -2px -2px 3px #888888;
+    //cursor: pointer;
+    margin: 0px 10px;
+}
+
+.buttonhome:hover{
+    border-radius: 3px;
+    background-color: gainsboro;
+    border: 2px solid whitesmoke;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: center;
+    text-decoration: none;  
+    display: inline-block;
+    font-size: 25px;
+    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+    line-height: 0px;
+    //cursor: pointer;
     margin: 0px 10px;
 }
 
