@@ -94,11 +94,22 @@ export default {
 .droped {
   display: none;
   font-size: 15px;
+  background-color: skyblue;
+  border: 2px solid gainsboro;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+
+.droped:hover {
+  display: none;
+  font-size: 15px;
   background-color: lightblue;
   border: 2px solid gainsboro;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .droper {
@@ -106,6 +117,14 @@ export default {
   border: 2px solid gainsboro;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.droper:hover {
+  background-color: lightskyblue;
+  border: 2px solid gainsboro;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .fade {
