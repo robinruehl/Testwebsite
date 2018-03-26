@@ -1,6 +1,6 @@
 <template>
   <div id = "mission">
-  mission
+  
     <div class = "maingrid">
 
       <div class = "sidebar">

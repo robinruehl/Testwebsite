@@ -1,4 +1,4 @@
-dd<template>
+<template>
   <div id="fun">
     fun
     <div class = "maingrid">

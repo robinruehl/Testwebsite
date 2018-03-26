@@ -1,6 +1,6 @@
 <template>
   <div id = "home">
-  home
+  
     <div class = "maingrid">
 
       <div class = "sidebar">

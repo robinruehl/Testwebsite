@@ -1,11 +1,10 @@
 dd<template>
   <div id="fun">
-    fun
+    
     <div class = "maingrid">
 
       <div class = "center">
         <menucmp/>
-        <router-view/>
       </div>
     </div>
   </div>

@@ -2,28 +2,28 @@
   <div class = "menu">
   <p>FUN</p>
     <div class = "dropdown 1">
-      <p class = "gamemodes" @click="setcontent(1)">&#8594; Gamemodes </p>
+      <p class = "gamemodes" @click="setcontent(1)"> &#187; Gamemodes </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
       <p class = "droped 1 fade"> test </p>
     </div>
     <div class = "dropdown 2">
-      <p class = "maps" @click="setcontent(2)" > &#8594; Maps </p>
+      <p class = "maps" @click="setcontent(2)" > &#187; Maps </p>
       <p class = "droped 2 fade"> test </p>
       <p class = "droped 2 fade"> test </p>
       <p class = "droped 2 fade"> test </p>
       <p class = "droped 2 fade"> test </p>
     </div>
     <div class = "dropdown 3">
-      <p class = "servers" @click="setcontent(3)"> &#8594; Servers </p>
+      <p class = "servers" @click="setcontent(3)"> &#187; Servers </p>
       <p class = "droped 3 fade"> test </p>
       <p class = "droped 3 fade"> test </p>
       <p class = "droped 3 fade"> test </p>
       <p class = "droped 3 fade"> test </p>
     </div>
     <div class = "dropdown 4">
-      <p class = "strats" @click="setcontent(4)"> &#8594; Strats </p>
+      <p class = "strats" @click="setcontent(4)"> &#187; Strats </p>
       <p class = "droped 4 fade"> test </p>
       <p class = "droped 4 fade"> test </p>
       <p class = "droped 4 fade"> test </p>
@@ -51,16 +51,10 @@ export default {
       }
       for (i = 0; i < 4; i++)
       droped[(dropdown.length * (content - 1)) + i].style.display = "block";
-      
-      //menu.style.height = "450px"
     },
     setcontent(n) {
       this.showcontent(n);
     },
-    /*changeText()
-    {
-    document.getElementsByClassName('boldStuff').innerHTML = 'Fred Flinstone';
-    },*/
   },
 };
 </script>
