@@ -6,7 +6,16 @@
         <csidebarcmp/>
       </div>
       <div class = "center">
-
+        <div class = "aboutme">
+          <p>
+            About me was here <br>
+            1 <br>
+            2 <br>
+            3 <br>
+            4 <br>
+            5 <br>
+          </p>
+        </div>
       </div>
     </div>
   </div>
@@ -19,8 +28,8 @@ import csidebarcmp from "../components/csidebarcmp";
 export default {
   name: "Creator",
   components: {
-    csidebarcmp
-  }
+    csidebarcmp,
+  },
 };
 </script>
 
@@ -71,4 +80,15 @@ export default {
   max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
+
+.aboutme {
+  background-color: white;
+  border: 2px solid whitesmoke;
+  margin: 10px;
+  font-size: 23px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
 </style>

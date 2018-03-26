@@ -31,7 +31,8 @@
 export default {
   name: "Mission",
   components: {
-  }
+
+  },
 };
 </script>
 

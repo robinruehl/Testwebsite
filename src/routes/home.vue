@@ -20,7 +20,7 @@ export default {
   name: "Home",
   components: {
     slidercmp,
-    sidebarcmp
+    sidebarcmp,
   },
 };
 </script>

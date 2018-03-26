@@ -3,11 +3,15 @@
     <p>FUN</p>
     <div class = "dropdown 1">
       <p class = "gamemodes droper" @click="setcontent(1)">&#8594; Gamemodes </p>
-        <router-link :to="{name: 'Test1'}" >
-          <p class = "droped 1 fade"> Test Page </p>
-        </router-link>
-      <p class = "droped 1 fade"> test </p>
-      <p class = "droped 1 fade"> test </p>
+      <router-link :to="{name: 'Test1'}" >
+        <p class = "droped 1 fade"> Test Page </p>
+      </router-link>
+      <router-link :to="{name: 'Surf'}">
+        <p class = "droped 1 fade"> Surf </p>
+      </router-link>
+      <router-link :to="{name: 'Jail'}">
+        <p class = "droped 1 fade"> Jail </p>
+      </router-link>
       <p class = "droped 1 fade"> test </p>
     </div>
     <div class = "dropdown 2">

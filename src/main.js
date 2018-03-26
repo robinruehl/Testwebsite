@@ -9,6 +9,8 @@ import Mission from "./routes/mission";
 import Creator from "./routes/creator";
 import Gamemodes from "./fun/gamemodes";
 import Gamemodestest from "./fun/gamemodestest";
+import Gamemodessurf from "./fun/gamemodessurf";
+import Gamemodesjail from "./fun/gamemodesjail";
 
 Vue.use(VueRouter);
 
@@ -21,6 +23,8 @@ const routes = [
   { path: "/creator", name: 'Creator', component: Creator },
   { path: "/fun/gamemodes", name: 'Gamemodes', component: Gamemodes },
   { path: "/fun/gamemodes/test", name: 'Test1', component: Gamemodestest },
+  { path: "/fun/gamemodes/surf", name: 'Surf', component: Gamemodessurf },
+  { path: "/fun/gamemodes/jail", name: 'Jail', component: Gamemodesjail },
   ];
 
 const router = new VueRouter({

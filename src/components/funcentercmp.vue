@@ -6,22 +6,22 @@
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 100px;">
       </router-link>
       <p class = "titel"> Test Page </p>
-      <p class = "description"> Brings you to the test page.</p>
+      <p class = "description"> Brings you to the BEST page.</p>
     </div>
 
     <div class = "element element2">
-      <router-link :to="{name: 'Home'}">
+      <router-link :to="{name: 'Surf'}">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 100px;">
       </router-link>
-      <p class = "titel"> Titel </p>
-      <p class = "description"> Desc not linking to its page </p>
+      <p class = "titel"> Surf </p>
+      <p class = "description"> Do you like flying around at mach 1? </p>
     </div>
     <div class = "element element3">
       <router-link :to="{name: 'Home'}">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 100px;">
       </router-link>
-      <p class = "titel"> Titel </p>
-      <p class = "description"> Desc not linking to its page </p>
+      <p class = "titel"> Jailbreak </p>
+      <p class = "description"> Roleplay either an inmate or an officer in Jailbreak. </p>
     </div>
     <div class = "element element4">
       <router-link :to="{name: 'Home'}">

@@ -40,44 +40,43 @@ export default {
       var i;
       var slides = document.getElementsByClassName("mySlides");
       var dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1} 
-      if (n < 1) {slideIndex = slides.length}
+      if (n > slides.length) {
+        slideIndex = 1;
+      }
+      if (n < 1) {
+        slideIndex = slides.length;
+      }
       for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none"; 
+        slides[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block"; 
-      dots[slideIndex-1].className += " active";
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
     },
     plusSlides(n) {
-      
       slideIndex += n;
       this.showSlides(slideIndex);
     },
     currentSlide(n) {
-      this.showSlides(slideIndex = n);
-    },
+      this.showSlides((slideIndex = n));
+    }
   },
   data() {
-    return {
-    };
+    return {};
   },
-  components: {
-  },
+  components: {},
   mounted() {
     if (this.slideIndex !== 0) {
       this.showSlides(slideIndex);
-    };
-  },
+    }
+  }
 };
-
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-
 .slideshow {
   max-width: 1300px;
   position: relative;
@@ -85,8 +84,8 @@ export default {
 }
 
 .mySlides {
-    display: none;
-    margin: 10px;
+  display: none;
+  margin: 10px;
 }
 
 .next {
@@ -157,13 +156,21 @@ export default {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .3} 
-  to {opacity: 1}
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .dot {
@@ -177,7 +184,8 @@ export default {
   margin: 4px 7px;
 }
 
-.active, .dot:hover {
-  background-color: #717171; 
+.active,
+.dot:hover {
+  background-color: #717171;
 }
 </style>
