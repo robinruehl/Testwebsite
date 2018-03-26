@@ -1,5 +1,5 @@
 <template>
-  <div id="sidebar">
+  <div id = "sidebar">
     <p>test</p>
   </div>
 </template>
@@ -27,7 +27,7 @@ export default {
 #sidebar {
   border-radius: 0px 0px 0px 0px;
   background-color: gainsboro;
-  padding: 389px 0px;
+  padding: 388px 0px;
   max-height: ;
   display: grid;
   grid-template-columns: ;

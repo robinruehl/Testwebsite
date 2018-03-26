@@ -3,7 +3,7 @@
     <div class = "maingrid">
 
       <div class = "sidebar">
-
+        <csidebarcmp/>
       </div>
       <div class = "center">
 
@@ -14,9 +14,12 @@
 
 <script>
 
+import csidebarcmp from "../components/csidebarcmp";
+
 export default {
   name: "Creator",
   components: {
+    csidebarcmp
   }
 };
 </script>
@@ -47,11 +50,12 @@ export default {
   position: relative;
   background-color: gainsboro;
   grid-column: 7 / 8;
-  grid-row: 2 / 11;
-  border: 2px solid whitesmoke;
+  grid-row: 2 / 9;
+  //border: 2px solid whitesmoke;
   max-width: 300px;
   min-width: 145px;
-  margin: 0 0 0 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 .center {
