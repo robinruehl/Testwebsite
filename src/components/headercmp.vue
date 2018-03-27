@@ -1,5 +1,5 @@
 <template>
-  <div class = "deheader">
+  <div class = "header">
     <buttonhome/>
     <buttonfun/>
     <buttonmission/>
@@ -48,7 +48,7 @@ export default {
     position: reletave;
     //box-shadow: 0px 0px 1px 2px #888888;
     max-width: 1580px;
-    min-width: 1000px;
+    //min-width: 1000px;
     margin: auto;
 
 }

@@ -39,7 +39,7 @@ export default {
   margin: 10px;
 
   position: relative;
-
+  
   top: -10px;
 }
 

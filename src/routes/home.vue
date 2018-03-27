@@ -46,7 +46,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-width: 990px ;
+  //min-width: 990px ;
 }
 
 .maingrid {
@@ -86,7 +86,7 @@ export default {
   grid-row: 2 / 9;
   //border: 2px solid whitesmoke;
   max-width: 300px;
-  min-width: 145px;
+  min-width: 185px;
   margin: 0px;
   padding: 0px;
 }
