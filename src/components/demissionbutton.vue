@@ -36,8 +36,8 @@ export default {
     line-height: 0px;
     width: 130px;
     height: 30px;
-    margin: 0px 10px;
-    top: -10px;
+    margin: 15px 5px;
+    //top: -10px;
     position: relative;
 }
 
@@ -54,10 +54,9 @@ export default {
     line-height: 0px;
     width: 130px;
     height: 30px;
-    margin: 0px 10px;
-    top: -20px;
+    margin: 15px 5px;
+    //top: -10px;
     position: relative;
-    top: -10px;
 }
 
 

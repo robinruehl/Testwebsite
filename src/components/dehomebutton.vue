@@ -37,7 +37,7 @@ export default {
     //cursor: pointer;
     width: 80px;
     height: 51px;
-    margin: 5px 10px;
+    margin: 5px 5px;
     position: relative;
 }
 
@@ -55,7 +55,7 @@ export default {
     //cursor: pointer;
     width: 80px;
     height: 51px;
-    margin: 5px 10px;
+    margin: 5px 5px;
     position: relative;
 }
 
