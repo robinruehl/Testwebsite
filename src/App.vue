@@ -1,12 +1,8 @@
 <template>
   <div id="app">
-    <div class = "headerapp">
-      <headercmp/>
-    </div>
+    
     <router-view class = "router"/>
-    <div class = "footerapp">
-      <footercmp/>
-    </div>  
+     
   </div>
 </template>
 

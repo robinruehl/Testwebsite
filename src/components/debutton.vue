@@ -1,8 +1,8 @@
 <template>
-  <div type = "button" class = "buttonfun">
-    <router-link :to="{name: 'Fun'}" class = "cancerlink">
-      <div class = "funtext">
-          <p>FUN</p>
+  <div type = "button" class = "buttonde">
+    <router-link :to="{name: 'DeHome'}" class = "cancerlink">
+      <div class = "detext">
+        <p>Deutsch</p>
       </div>
     </router-link>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: "buttonfun",
+  name: "buttonde",
   data() {
     return {
       msg: "placeholder"
@@ -20,30 +20,26 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style >
 
-.buttonfun {
+.buttonde {
   background-color: whitesmoke;
   border: 2px solid whitesmoke;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 12px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-  line-height: 0;
+  line-height: 0px;
   //cursor: pointer;
-  width: 60px;
-  height: 30px;
-
-  margin: 10px;
-
   position: relative;
-
-  top: -10px;
+  top: -25px;
+  right: 0px;
+  margin: 0;
 }
 
-.buttonfun:hover {
+.buttonde:hover {
   background-color: gainsboro;
   border-radius: 3px;
   border: 2px solid whitesmoke;
@@ -51,23 +47,18 @@ export default {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 12px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-  width: 60px;
-  height: 30px;
-
-  margin: 10px;
-
-  position: relative;
-
-  top: -10px;
-
-
+  line-height: 0px;
   //cursor: pointer;
+  position: relative;
+  top: -25px;
+  right: 0px;
+  margin: 0;
 }
 
-.funtext {
-  margin: -10px 0px;
+.detext {
+  margin: -4px 0px;
 }
 
 .cancerlink {

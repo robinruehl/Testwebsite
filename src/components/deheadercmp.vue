@@ -1,19 +1,19 @@
 <template>
   <div class = "deheader">
-    <buttonhome/>
-    <buttonfun/>
-    <buttonmission/>
-    <buttoncreator/>
+    <debuttonhome/>
+    <debuttonfun/>
+    <debuttonmission/>
+    <debuttoncreator/>
     <buttonde/>
     <buttoneng/>
   </div>
 </template>
 
 <script>
-import buttonhome from "./homebutton";
-import buttonfun from "./funbutton";
-import buttonmission from "./missionbutton";
-import buttoncreator from "./creatorbutton";
+import debuttonhome from "./dehomebutton";
+import debuttonfun from "./defunbutton";
+import debuttonmission from "./demissionbutton";
+import debuttoncreator from "./decreatorbutton";
 import buttonde from "./debutton";
 import buttoneng from "./engbutton";
 
@@ -25,10 +25,10 @@ export default {
     };
   },
   components: {
-    buttonhome,
-    buttonfun,
-    buttonmission,
-    buttoncreator,
+    debuttonhome,
+    debuttonfun,
+    debuttonmission,
+    debuttoncreator,
     buttonde,
     buttoneng,
   }
@@ -38,7 +38,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style >
 
-.header {
+.deheader {
     //border-radius: 10px 10px 0 0;
     background-color: white;
     padding: 10px 10px 10px 10px;
@@ -53,20 +53,20 @@ export default {
 }
 
 
-.buttonhome {
+.debuttonhome {
 
 }
-.buttonfun {
+.debuttonfun {
 
   
 }
 
-.buttonmission {
+.debuttonmission {
 
   
 }
 
-.buttoncreator {
+.debuttoncreator {
 
 }
 

@@ -1,14 +1,22 @@
 <template>
-  <div id="fun">
+  <div id = "demission">
+
     <div class = "headerapp">
-      <headercmp/>
+      <deheadercmp/>
     </div>
     <div class = "maingrid">
       
+      
       <div class = "center">
-        <menucmp/>
-        <div class = "funcenter">
-          <funcentercmp/>
+        <div class = "missiontext">
+          <p class = "textheader">
+
+          </p>
+          <p align = left class = "textheader">
+            Meine Mission ist einfach. <br>
+            Irgendwie muss ich den Spaß zurrück in das Spiel Counterstrike Global Offensive bringen. <br>
+            Und das ist, was ich dann auch hiermit machen werde. Ich hatte die Idee eine Datenbank über spaßige Sachen in Counterstrike zu erstellen. <br>
+          </p>
         </div>
       </div>
     </div>
@@ -19,17 +27,14 @@
 </template>
 
 <script>
-import menucmp from "../components/menucmp";
-import funcentercmp from "../components/funcentercmp";
-import headercmp from "../components/headercmp";
+
+import deheadercmp from "../components/deheadercmp";
 import footercmp from "../components/footercmp";
 
 export default {
-  name: "Fun",
+  name: "DeMission",
   components: {
-    menucmp,
-    funcentercmp,
-    headercmp,
+    deheadercmp,
     footercmp
   },
 };
@@ -37,13 +42,13 @@ export default {
 
 <style scoped>
 
-#fun {
+#demission {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 0px;
+  min-width: 990px ;
 }
 
 .maingrid {
@@ -53,10 +58,20 @@ export default {
   max-width: 1580px;
   min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
-  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 1fr 10px;
+  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 10px;
   margin: auto;
-  min-height: 860px;
 }
+
+/*.sidebar {
+  position: relative;
+  background-color: gainsboro;
+  grid-column: 7 / 8;
+  grid-row: 2 / 11;
+  border: 2px solid whitesmoke;
+  max-width: 300px;
+  min-width: 145px;
+  margin: 0 0 0 0;
+}*/
 
 .center {
   background-color: gainsboro;
@@ -68,45 +83,20 @@ export default {
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1518px;
   min-width: 900px;
-  //max-height: 836px;
+  max-height: 832px;
   margin: 1px 0px 0px 0px;
-  display: grid;
-  grid-template-columns: 10px 150px 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10px 1fr 1fr 1fr 1fr 1fr;
 }
 
-.menu {
-  grid-column: 2/3;
-  grid-row: 2/5;
+.missiontext{
+  font-size: 20px;
+  background-color: white;
+  border: 2px solid whitesmoke;
+  margin: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  min-height: 808px;
 }
 
-.funcenter {
-  grid-column: 3/7;
-  grid-row: 2/7;
-}
-
-
-/*.p121 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-}
-
-.p122 {
-  grid-column: 4/5;
-  grid-row: 2/3;
-}
-
-.p123 {
-  grid-column: 5/6;
-  grid-row: 2/3;
-}
-
-.p124 {
-  grid-column: 6/7;
-  grid-row: 2/3;
-}*/
-
-.headerapp {
+.deheaderapp {
   background-color: white;
   border: solid;
   color: whitesmoke;

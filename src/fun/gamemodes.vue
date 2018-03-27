@@ -1,5 +1,8 @@
 <template>
   <div id="fun">
+    <div class = "headerapp">
+      <headercmp/>
+    </div>
     <div class = "maingrid">
 
       <div class = "center">
@@ -9,18 +12,25 @@
         </div>
       </div>
     </div>
+    <div class = "footerapp">
+      <footercmp/>
+    </div> 
   </div>
 </template>
 
 <script>
 import menucmp from "../components/menucmp";
 import funcentercmp from "../components/funcentercmp";
+import headercmp from "../components/headercmp";
+import footercmp from "../components/footercmp";
 
 export default {
   name: "Gamemodes",
   components: {
     menucmp,
-    funcentercmp
+    funcentercmp,
+    headercmp,
+    footercmp
   }
 };
 </script>
@@ -38,7 +48,6 @@ export default {
 .maingrid {
   display: grid;
   position: reletave;
-  //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
   min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
@@ -73,25 +82,18 @@ export default {
   grid-row: 2/7;
 }
 
-
-/*.p121 {
-  grid-column: 3/4;
-  grid-row: 2/3;
+.headerapp {
+  background-color: white;
+  border: solid;
+  color: whitesmoke;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 4px;
+  border-bottum-width: 0px;
 }
 
-.p122 {
-  grid-column: 4/5;
-  grid-row: 2/3;
+.footerapp {
+  margin: 0px 30px 0px 30px;
 }
-
-.p123 {
-  grid-column: 5/6;
-  grid-row: 2/3;
-}
-
-.p124 {
-  grid-column: 6/7;
-  grid-row: 2/3;
-}*/
 
 </style>

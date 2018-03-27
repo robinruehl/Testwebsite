@@ -1,18 +1,18 @@
 <template>
-  <router-link :to="{name: 'Mission'}"> 
-    <div type = "button" class = "buttonmission">
+  <div type = "button" class = "debuttonmission">
+    <router-link :to="{name: 'DeMission'}" class = "cancerlink"> 
       <div class = "missiontext">
         <p class = "text1">My </p>
         <p class = "text2">Mission</p>
       </div>
-    </div>
-  </router-link>
+    </router-link>
+  </div>
 </template>
 
 <script>
 
 export default {
-  name: "buttonmission",
+  name: "debuttonmission",
   data() {
     return {
       msg: "placeholder"
@@ -24,10 +24,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.buttonmission {
+.debuttonmission {
     background-color: whitesmoke;
-    border-radius: 3px;
-    border: 2px solid gainsboro;
+    border: 2px solid whitesmoke;
     color: white;
     text-align: left;
     text-decoration: none;  
@@ -35,11 +34,14 @@ export default {
     font-size: 25px;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
-    //cursor: pointer;
-    width: 115px;
+    width: 130px;
+    height: 30px;
+    margin: 0px 10px;
+    top: -10px;
+    position: relative;
 }
 
-.buttonmission:hover {
+.debuttonmission:hover {
     background-color: gainsboro;
     border-radius: 3px;
     border: 2px solid whitesmoke;
@@ -50,16 +52,25 @@ export default {
     font-size: 25px;
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
-    //cursor: pointer;
-    width: 115px;
+    width: 130px;
+    height: 30px;
+    margin: 0px 10px;
+    top: -20px;
+    position: relative;
+    top: -10px;
 }
 
 
 .text1 {
-   margin: 20px -15px;
+   margin: 15px 3px;
 }
 
 .text2 {
-  margin: -20px 23px;
+  margin: -15px 40px;
+}
+
+.cancerlink {
+  text-decoration: none;
+  color: white;
 }
 </style>

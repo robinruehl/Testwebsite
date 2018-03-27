@@ -1,18 +1,18 @@
 <template>
-  <router-link :to="{name: 'Home'}">
-    <div type = "button" class = "buttonhome">
+  <div type = "button" class = "debuttonhome">
+    <router-link :to="{name: 'DeHome'}" class = "cancerlink">
       <div class = "hometext">
         <p>CSGO</p>
         <p class = "p1">funbase</p>
       </div>
-    </div>
-  </router-link>
+    </router-link>
+  </div>
 </template>
 
 <script>
 
 export default {
-  name: "buttonhome",
+  name: "debuttonhome",
   data() {
     return {
       msg: "placeholder"
@@ -24,15 +24,10 @@ export default {
 
 <style scoped>
 
-.buttonhome {
-    border-radius: 3px;
+.debuttonhome {
     background-color: whitesmoke;
-    border: 2px solid gainsboro;
+    border: 2px solid whitesmoke;
     color: white;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 9px;
-    padding-bottom: 9px;
     text-align: center;
     text-decoration: none;  
     display: inline-block;
@@ -40,18 +35,17 @@ export default {
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
     //cursor: pointer;
+    width: 80px;
+    height: 51px;
     margin: 0px 10px;
+    position: relative;
 }
 
-.buttonhome:hover{
+.debuttonhome:hover{
     border-radius: 3px;
     background-color: gainsboro;
     border: 2px solid whitesmoke;
     color: white;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 9px;
-    padding-bottom: 9px;
     text-align: center;
     text-decoration: none;  
     display: inline-block;
@@ -59,14 +53,22 @@ export default {
     text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
     line-height: 0px;
     //cursor: pointer;
+    width: 80px;
+    height: 51px;
     margin: 0px 10px;
+    position: relative;
 }
 
 .hometext {
-  margin: -20px 0px;
+  margin: -10px 0px;
 }
 
 .p1 {
   font-size: 21px
+}
+
+.cancerlink {
+  text-decoration: none;
+  color: white;
 }
 </style>

@@ -1,8 +1,12 @@
 <template>
   <div id = "mission">
-  mission
+  
+    <div class = "headerapp">
+      <headercmp/>
+    </div>
     <div class = "maingrid">
 
+      
       
       <div class = "center">
         <div class = "missiontext">
@@ -10,22 +14,30 @@
 
           </p>
           <p align = left class = "textheader">
-            My mission was simple. <br>
+            My mission is simple. <br>
             Somehow restore the fun in Counterstrike Global-Offensive. <br>
             And that is what I then did. I thought up this idea of a database about fun things to do in Counterstrike Global Offensive. <br>
           </p>
         </div>
       </div>
     </div>
+    <div class = "footerapp">
+      <footercmp/>
+    </div>  
   </div>
 </template>
 
 <script>
 
+import headercmp from "../components/headercmp";
+import footercmp from "../components/footercmp";
+
+
 export default {
   name: "Mission",
   components: {
-
+    headercmp,
+    footercmp
   },
 };
 </script>
@@ -52,16 +64,17 @@ export default {
   margin: auto;
 }
 
-/*.sidebar {
+.sidebar {
   position: relative;
   background-color: gainsboro;
   grid-column: 7 / 8;
-  grid-row: 2 / 11;
-  border: 2px solid whitesmoke;
+  grid-row: 2 / 9;
+  //border: 2px solid whitesmoke;
   max-width: 300px;
   min-width: 145px;
-  margin: 0 0 0 0;
-}*/
+  margin: 0px;
+  padding: 0px;
+}
 
 .center {
   background-color: gainsboro;
@@ -84,5 +97,19 @@ export default {
   margin: 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   min-height: 808px;
+}
+
+.headerapp {
+  background-color: white;
+  border: solid;
+  color: whitesmoke;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 4px;
+  border-bottum-width: 0px;
+}
+
+.footerapp {
+  margin: 0px 30px 0px 30px;
 }
 </style>

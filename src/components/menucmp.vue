@@ -3,13 +3,13 @@
     <p>FUN</p>
     <div class = "dropdown 1">
       <p class = "gamemodes droper" @click="setcontent(1)">&#8594; Gamemodes </p>
-      <router-link :to="{name: 'Test1'}" >
+      <router-link :to="{name: 'Test1'}"  class = "cancerlink">
         <p class = "droped 1 fade"> Test Page </p>
       </router-link>
-      <router-link :to="{name: 'Surf'}">
+      <router-link :to="{name: 'Surf'}" class = "cancerlink">
         <p class = "droped 1 fade"> Surf </p>
       </router-link>
-      <router-link :to="{name: 'Jail'}">
+      <router-link :to="{name: 'Jail'}" class = "cancerlink">
         <p class = "droped 1 fade"> Jail </p>
       </router-link>
       <p class = "droped 1 fade"> test </p>
@@ -77,6 +77,7 @@ export default {
   background-color: whitesmoke;
   border: 2px solid gainsboro;
   max-width: 200px;
+  max-height: 420px;
   font-size: 25px;
   margin: 10px 0px;
   box-shadow: -1px -1px 1px 1px #888888;
@@ -142,6 +143,11 @@ export default {
 @keyframes fade {
   from {opacity: .3; margin: -10px 0px} 
   to {opacity: 1; margin: 15px 0px}
+}
+
+.cancerlink {
+  text-decoration: none;
+  color: white;
 }
 
 </style>

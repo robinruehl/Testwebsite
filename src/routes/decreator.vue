@@ -1,38 +1,50 @@
 <template>
-  <div id = "mission">
-  mission
+  <div id = "decreator">
+    <div class = "headerapp">
+      <deheadercmp/>
+    </div>
     <div class = "maingrid">
-
       
+      <div class = "sidebar">
+        <csidebarcmp/>
+      </div>
       <div class = "center">
-        <div class = "missiontext">
+        <div class = "aboutme">
           <p class = "textheader">
+            The Creator <br>
 
           </p>
-          <p align = left class = "textheader">
-            My mission was simple. <br>
-            Somehow restore the fun in Counterstrike Global-Offensive. <br>
-            And that is what I then did. I thought up this idea of a database about fun things to do in Counterstrike Global Offensive. <br>
+          <p class = "textbody">
+            
           </p>
         </div>
       </div>
     </div>
+    <div class = "footerapp">
+      <footercmp/>
+    </div>  
   </div>
 </template>
 
 <script>
 
-export default {
-  name: "Mission",
-  components: {
+import csidebarcmp from "../components/csidebarcmp";
+import deheadercmp from "../components/deheadercmp";
+import footercmp from "../components/footercmp";
 
+export default {
+  name: "DeCreator",
+  components: {
+    csidebarcmp,
+    deheadercmp,
+    footercmp
   },
 };
 </script>
 
 <style scoped>
 
-#mission {
+#decreator {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -48,41 +60,57 @@ export default {
   max-width: 1580px;
   min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
-  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 10px;
+  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px auto 10px;
   margin: auto;
 }
 
-/*.sidebar {
+.sidebar {
   position: relative;
   background-color: gainsboro;
   grid-column: 7 / 8;
-  grid-row: 2 / 11;
-  border: 2px solid whitesmoke;
+  grid-row: 2 / 9;
+  //border: 2px solid whitesmoke;
   max-width: 300px;
   min-width: 145px;
-  margin: 0 0 0 0;
-}*/
+  margin: 0px;
+  padding: 0px;
+}
 
 .center {
   background-color: gainsboro;
-  grid-column: 2 / 8;
+  grid-column: 2 / 6;
   grid-row: 2 / 11;
   border: 2px solid whitesmoke;
   overflow: hidden;
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
-  max-width: 1518px;
-  min-width: 900px;
+  max-width: 1350px;
+  min-width: 740px;
   max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
 
-.missiontext{
-  font-size: 20px;
+.aboutme {
   background-color: white;
   border: 2px solid whitesmoke;
   margin: 10px;
+  font-size: 23px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   min-height: 808px;
 }
+
+.deheaderapp {
+  background-color: white;
+  border: solid;
+  color: whitesmoke;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 4px;
+  border-bottum-width: 0px;
+}
+
+.footerapp {
+  margin: 0px 30px 0px 30px;
+}
+
 </style>

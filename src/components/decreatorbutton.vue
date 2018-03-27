@@ -1,6 +1,6 @@
 <template>
-  <router-link :to="{name: 'Creator'}">
-    <div type = "button" class = "buttoncreator">
+  <router-link :to="{name: 'DeCreator'}" class = "cancerlink">
+    <div type = "button" class = "debuttoncreator">
       <div class = "creatortext">
         <p class = "text1">The</p>
         <p class = "text2">Creator</p>
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "buttoncreator",
+  name: "debuttoncreator",
   data() {
     return {
       msg: "placeholder"
@@ -23,10 +23,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.buttoncreator {
+.debuttoncreator {
   background-color: whitesmoke;
-  border-radius: 3px;
-  border: 2px solid gainsboro;
+  border: 2px solid whitesmoke;
   color: white;
   text-decoration: none;  
   display: inline-block;
@@ -34,14 +33,15 @@ export default {
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
   //cursor: pointer;
-  padding-left: 23px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 40px;
-  width: 130px;
+  width: 140px;
+  height: 30px;
+  margin: 0px 10px;
+  top: -10px;
+  position: relative;
+
 }
 
-.buttoncreator:hover {
+.debuttoncreator:hover {
   background-color: gainsboro;
   border-radius: 3px;
   border: 2px solid whitesmoke;
@@ -52,11 +52,12 @@ export default {
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
   //cursor: pointer;
-  padding-left: 23px;
-  padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: 40px;
-  width: 130px;
+  width: 140px;
+  height: 30px;
+  margin: 0px 10px;
+  top: -10px;
+  position: relative;
+
 }
 
 .creatortext {
@@ -64,11 +65,15 @@ export default {
 }
 
 .text1 {
-   margin: 20px -15px;
+   margin: 15px 2px;
 }
 
 .text2 {
-  margin: -20px 35px;
+  margin: -15px 50px;
 }
 
+.cancerlink {
+  text-decoration: none;
+  color: white;
+}
 </style>

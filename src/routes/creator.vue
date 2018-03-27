@@ -1,7 +1,10 @@
 <template>
   <div id = "creator">
+    <div class = "headerapp">
+      <headercmp/>
+    </div>
     <div class = "maingrid">
-
+      
       <div class = "sidebar">
         <csidebarcmp/>
       </div>
@@ -17,17 +20,24 @@
         </div>
       </div>
     </div>
+    <div class = "footerapp">
+      <footercmp/>
+    </div>  
   </div>
 </template>
 
 <script>
 
 import csidebarcmp from "../components/csidebarcmp";
+import headercmp from "../components/headercmp";
+import footercmp from "../components/footercmp";
 
 export default {
   name: "Creator",
   components: {
     csidebarcmp,
+    headercmp,
+    footercmp
   },
 };
 </script>
@@ -89,6 +99,18 @@ export default {
   min-height: 808px;
 }
 
+.headerapp {
+  background-color: white;
+  border: solid;
+  color: whitesmoke;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 4px;
+  border-bottum-width: 0px;
+}
 
+.footerapp {
+  margin: 0px 30px 0px 30px;
+}
 
 </style>

@@ -1,7 +1,10 @@
 <template>
-  <div id = "home">
+  <div id = "dehome">
+    <div class = "headerapp">
+      <deheadercmp/>
+    </div>
     <div class = "maingrid">
-
+      
       <div class = "sidebar">
         <sidebarcmp/>
       </div>
@@ -9,25 +12,32 @@
         <slidercmp/>
       </div>
     </div>
+    <div class = "footerapp">
+      <footercmp/>
+    </div>  
   </div>
 </template>
 
 <script>
 import slidercmp from "../components/slidercmp";
 import sidebarcmp from "../components/sidebarcmp";
+import deheadercmp from "../components/deheadercmp";
+import footercmp from "../components/footercmp";
 
 export default {
-  name: "Home",
+  name: "DeHome",
   components: {
     slidercmp,
     sidebarcmp,
+    deheadercmp,
+    footercmp
   },
 };
 </script>
 
 <style scoped>
 
-#home {
+#dehome {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -47,17 +57,6 @@ export default {
   margin: auto;
 }
 
-.sidebar {
-  position: relative;
-  background-color: gainsboro;
-  grid-column: 7 / 8;
-  grid-row: 2 / 11;
-  border: 2px solid whitesmoke;
-  max-width: 300px;
-  min-width: 145px;
-  margin: 0 0 0 0;
-}
-
 .center {
   background-color: gainsboro;
   grid-column: 2 / 6;
@@ -71,4 +70,31 @@ export default {
   max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
+
+.sidebar {
+  position: relative;
+  background-color: gainsboro;
+  grid-column: 7 / 8;
+  grid-row: 2 / 9;
+  //border: 2px solid whitesmoke;
+  max-width: 300px;
+  min-width: 145px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.deheaderapp {
+  background-color: white;
+  border: solid;
+  color: whitesmoke;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-width: 4px;
+  border-bottum-width: 0px;
+}
+
+.footerapp {
+  margin: 0px 30px 0px 30px;
+}
+
 </style>
