@@ -9,6 +9,9 @@
         <sidebarcmp/>
       </div>
       <div class = "center">
+        <p class = "hometitle">
+          
+        </p>
         <slidercmp/>
       </div>
     </div>
@@ -70,6 +73,12 @@ export default {
   max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
+
+/*.hometitle {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 0;
+}*/
 
 .sidebar {
   position: relative;

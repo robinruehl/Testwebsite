@@ -11,15 +11,17 @@ import Gamemodes from "./fun/gamemodes";
 import Gamemodestest from "./fun/gamemodestest";
 import Gamemodessurf from "./fun/gamemodessurf";
 import Gamemodesjail from "./fun/gamemodesjail";
+import Gamemodesminigame from "./fun/gamemodesminigame";
 
 import DeFun from "./routes/defun";
 import DeHome from "./routes/dehome";
 import DeMission from "./routes/demission";
 import DeCreator from "./routes/decreator";
-/*import Gamemodes from "./fun/gamemodes";
-import Gamemodestest from "./fun/gamemodestest";
-import Gamemodessurf from "./fun/gamemodessurf";
-import Gamemodesjail from "./fun/gamemodesjail";*/
+//import DeGamemodes from "./fun/gamemodes";
+import DeGamemodestest from "./fun/degamemodestest";
+import DeGamemodessurf from "./fun/degamemodessurf";
+import DeGamemodesjail from "./fun/degamemodesjail";
+import DeGamemodesminigame from "./fun/degamemodesminigame";
 
 Vue.use(VueRouter);
 
@@ -35,17 +37,17 @@ const routes = [
   { path: "/fun/gamemodes/test", name: 'Test1', component: Gamemodestest },
   { path: "/fun/gamemodes/surf", name: 'Surf', component: Gamemodessurf },
   { path: "/fun/gamemodes/jail", name: 'Jail', component: Gamemodesjail },
-  
+  { path: "/fun/gamemodes/minigame", name: 'Minigame', component: Gamemodesminigame },
 
   { path: "/de/fun", name: 'DeFun', component: DeFun },
   { path: "/de/", name: 'DeHome', component: DeHome },
   { path: "/de/mission", name: 'DeMission', component: DeMission },
   { path: "/de/creator", name: 'DeCreator', component: DeCreator },
-  /*{ path: "/de/fun/gamemodes", name: 'DeGamemodes', component: DeGamemodes },
+  //{ path: "/de/fun/gamemodes", name: 'DeGamemodes', component: DeGamemodes },
   { path: "/de/fun/gamemodes/test", name: 'DeTest1', component: DeGamemodestest },
   { path: "/de/fun/gamemodes/surf", name: 'DeSurf', component: DeGamemodessurf },
-  { path: "/de/fun/gamemodes/jail", name: 'DeJail', component: DeGamemodesjail },*/
-  
+  { path: "/de/fun/gamemodes/jail", name: 'DeJail', component: DeGamemodesjail },
+  { path: "/de/fun/gamemodes/minigame", name: 'DeMinigame', component: DeGamemodesminigame },
   ];
 
 const router = new VueRouter({

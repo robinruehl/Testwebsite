@@ -1,21 +1,21 @@
 <template>
-  <div class = "menu">
-    <router-link :to="{name: 'Fun'}"  class = "cancerlink2">
+  <div class = "demenu">
+    <router-link :to="{name: 'DeFun'}"  class = "cancerlink2">
       <p>FUN</p>
     </router-link>
     <div class = "dropdown 1">
       <p class = "gamemodes droper" @click="setcontent(1)">&#8594; Gamemodes </p>
-      <router-link :to="{name: 'Test1'}"  class = "cancerlink">
+      <router-link :to="{name: 'DeTest1'}"  class = "cancerlink">
         <p class = "droped 1 fade"> Test Page </p>
       </router-link>
-      <router-link :to="{name: 'Surf'}" class = "cancerlink">
+      <router-link :to="{name: 'DeSurf'}" class = "cancerlink">
         <p class = "droped 1 fade"> Surf </p>
       </router-link>
-      <router-link :to="{name: 'Jail'}" class = "cancerlink">
-        <p class = "droped 1 fade"> Jailbreak </p>
+      <router-link :to="{name: 'DeJail'}" class = "cancerlink">
+        <p class = "droped 1 fade"> Jail Break </p>
       </router-link>
-      <router-link :to="{name: 'Minigame'}" class = "cancerlink">
-        <p class = "droped 1 fade"> Minigames </p>
+      <router-link :to="{name: 'DeMinigame'}" class = "cancerlink">
+        <p class = "droped 1 fade"> Mini Games </p>
       </router-link>
     </div>
     <div class = "dropdown 2">
@@ -44,7 +44,7 @@
 
 <script>
 export default {
-  name: "menucmp",
+  name: "demenucmp",
   data() {
     return {
       msg: "placeholder"
@@ -77,7 +77,7 @@ export default {
 
 <style scoped>
 
-.menu {
+.demenu {
   background-color: whitesmoke;
   border: 2px solid gainsboro;
   max-width: 200px;

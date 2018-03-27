@@ -76,7 +76,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
 .slideshow {
   max-width: 1300px;
   position: relative;
@@ -184,8 +184,7 @@ export default {
   margin: 4px 7px;
 }
 
-.active,
-.dot:hover {
+.active, .dot:hover {
   background-color: #717171;
 }
 </style>

@@ -2,7 +2,7 @@
   <div class = "defuncenter">
 
     <div class = "element size2 element1">
-      <router-link :to="{name: 'Test1'}" class = "cancerlink">
+      <router-link :to="{name: 'DeTest1'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p >
@@ -10,25 +10,25 @@
     </div>
 
     <div class = "element size2 element2">
-      <router-link :to="{name: 'Surf'}" class = "cancerlink">
+      <router-link :to="{name: 'DeSurf'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Surf </p>
       <p class = "description"> Do you like flying around at mach 1? </p>
     </div>
     <div class = "element size1 element3">
-      <router-link :to="{name: 'Home'}" class = "cancerlink">
+      <router-link :to="{name: 'DeJail'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
-      <p class = "titel"> Jailbreak </p>
-      <p class = "description"> Roleplay either an inmate or an officer in Jailbreak. </p>
+      <p class = "titel"> Jail Break </p>
+      <p class = "description"> Roleplay either an inmate and try to escape the jail or an officer in Jailbreak. </p>
     </div>
     <div class = "element size2 element4">
-      <router-link :to="{name: 'Home'}" class = "cancerlink">
+      <router-link :to="{name: 'DeMinigame'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
-      <p class = "titel"> Titel </p>
-      <p class = "description">   This should fill in the whit space and make it look less lacking.   </p>
+      <p class = "titel"> Mini Games </p>
+      <p class = "description"> Compete in minigames against your friends. </p>
     </div>
 
     <div class = "element size1 element5">
@@ -142,10 +142,10 @@ export default {
   background-color: whitesmoke;
   text-decoration: none;
   */
-  margin: 5px;
+  margin: 5px 10px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: center;
 }
 
 .element{

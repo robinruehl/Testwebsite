@@ -79,11 +79,11 @@ export default {
 }
 
 .buttonde {
-
+  //background-color: lavender;
 }
 
 .buttoneng {
-
+  //background-color: whitesmoke;
 }
 
 </style>

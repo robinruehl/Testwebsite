@@ -73,9 +73,7 @@ export default {
   display: grid;
   grid-template-columns: ;
   grid-template-rows: ;
-  border: solid;
-  color: whitesmoke;
-  border-width: 2x;
+  border: 2px whitesmoke solid;
   margin: auto;
   //padding: auto;
   box-shadow: 1px -1px 1px 1px #888888

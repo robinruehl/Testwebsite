@@ -50,6 +50,7 @@ export default {
     max-width: 1580px;
     min-width: 1000px;
     margin: auto;
+
 }
 
 
@@ -79,11 +80,11 @@ export default {
 }
 
 .buttonde {
-
+  
 }
 
 .buttoneng {
-
+  
 }
 
 </style>
