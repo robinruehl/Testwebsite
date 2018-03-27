@@ -66,7 +66,7 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1350px;
-  min-width: 290px;
+  min-width: 410px;
   max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
