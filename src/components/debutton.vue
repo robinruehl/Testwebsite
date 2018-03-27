@@ -32,11 +32,10 @@ export default {
   font-size: 12px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  //cursor: pointer;
   position: relative;
-  top: -25px;
-  right: 0px;
-  margin: 0;
+  margin: 12px 5px;
+  width: 48px;
+  height: 16px;
 }
 
 .buttonde:hover {
@@ -50,11 +49,10 @@ export default {
   font-size: 12px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  //cursor: pointer;
   position: relative;
-  top: -25px;
-  right: 0px;
-  margin: 0;
+  margin: 12px 5px;
+  width: 48px;
+  height: 16px;
 }
 
 .detext {

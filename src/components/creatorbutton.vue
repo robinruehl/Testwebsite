@@ -32,11 +32,9 @@ export default {
   font-size: 25px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  //cursor: pointer;
   width: 140px;
   height: 30px;
-  margin: 0px 10px;
-  top: -10px;
+  margin: 15px 5px;
   position: relative;
 
 }
@@ -51,11 +49,9 @@ export default {
   font-size: 25px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  //cursor: pointer;
   width: 140px;
   height: 30px;
-  margin: 0px 10px;
-  top: -10px;
+  margin: 15px 5px;
   position: relative;
 
 }

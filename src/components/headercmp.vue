@@ -50,6 +50,9 @@ export default {
     max-width: 1580px;
     //min-width: 1000px;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 

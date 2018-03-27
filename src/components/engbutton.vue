@@ -32,12 +32,11 @@ export default {
   font-size: 12px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  //cursor: pointer;
+
   position: relative;
-  margin: 0px 0px;
-  top: -3px;
-  right: 47px;
+  margin: 35px 0px 0px -55px;
   width: 44px;
+  height: 16px;
 }
 
 .buttoneng:hover {
@@ -51,12 +50,11 @@ export default {
   font-size: 12px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
-  //cursor: pointer;
+
   position: relative;
-  margin: 0px 0px;
-  top: -3px;
-  right: 47px;
+  margin: 35px 0px 0px -55px;
   width: 44px;
+  height: 16px;
 }
 
 .engtext {
