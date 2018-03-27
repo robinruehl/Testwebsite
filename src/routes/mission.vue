@@ -6,19 +6,13 @@
       
       <div class = "center">
         <div class = "missiontext">
-          <p align = left>
-            There be Dragons. <br>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo dolores et ea rebum. 
-            Stet clita kasd gubergren, no sea takimata sanctus est Lorem 
-            ipsum dolor sit amet. Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et justo duo dolores et 
-            ea rebum. Stet clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          <p class = "textheader">
+
+          </p>
+          <p align = left class = "textheader">
+            My mission was simple. <br>
+            Somehow restore the fun in Counterstrike Global-Offensive. <br>
+            And that is what I then did. I thought up this idea of a database about fun things to do in Counterstrike Global Offensive. <br>
           </p>
         </div>
       </div>
@@ -85,6 +79,10 @@ export default {
 
 .missiontext{
   font-size: 20px;
+  background-color: white;
+  border: 2px solid whitesmoke;
   margin: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  min-height: 808px;
 }
 </style>
