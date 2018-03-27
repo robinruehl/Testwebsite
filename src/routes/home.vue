@@ -54,7 +54,7 @@ export default {
   position: reletave;
   //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
-  min-width: 1000px;
+
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
   grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px auto 10px;
   margin: auto;
@@ -69,7 +69,6 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1350px;
-  min-width: 740px;
   max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
