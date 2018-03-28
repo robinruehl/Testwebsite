@@ -24,7 +24,7 @@ export default {
 <style scoped>
 
 .debuttoncreator {
-  background-color: gainsboro;
+  background-color: lightgray;
   border: 2px solid whitesmoke;
   color: white;
   text-decoration: none;  
@@ -40,7 +40,7 @@ export default {
 }
 
 .debuttoncreator:hover {
-  background-color: whitesmoke;
+  background-color: gainsboro;
   border-radius: 3px;
   border: 2px solid whitesmoke;
   color: white;

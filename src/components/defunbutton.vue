@@ -23,7 +23,7 @@ export default {
 <style scoped>
 
 .debuttonfun {
-  background-color: gainsboro;
+  background-color: lightgray;
   border: 2px solid whitesmoke;
   color: white;
   text-align: center;
@@ -40,7 +40,7 @@ export default {
 }
 
 .debuttonfun:hover {
-  background-color: whitesmoke;
+  background-color: gainsboro;
   border-radius: 3px;
   border: 2px solid whitesmoke;
   color: white;

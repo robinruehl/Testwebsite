@@ -1,6 +1,6 @@
 <template>
   <div class = "languagemenu">
-    <div class = "dropdown 1">
+    <div class = "dropdownd 1">
       <p class = "Language dropper" @click="setcontent(1)">&#8594; Language </p>
       <router-link :to="{name: 'DeHome'}"  class = "cancerlink">
         <p class = "dropped 1 fadein"> Deutsch </p>
@@ -26,7 +26,7 @@ export default {
   methods: {
     showcontent(content) {
       var i;
-      var dropdown = document.getElementsByClassName("dropdown");
+      var dropdownd = document.getElementsByClassName("dropdown");
       var dropped = document.getElementsByClassName("dropped");
       
       for (i = 0; i < dropped.length; i++) {
@@ -34,14 +34,14 @@ export default {
       };
 
       for (i = 0; i < 2; i++) {
-        dropped[(dropdown.length * (content - 1)) + i].style.display = "block";
+        dropped[(dropdownd.length * (content - 1)) + i].style.display = "block";
       };
       
 
     },
     setcontent(n) {
       var i;
-      var dropdown = document.getElementsByClassName("dropdown");
+      var dropdownd = document.getElementsByClassName("dropdown");
       var dropped = document.getElementsByClassName("dropped");
 
       if (isdropped < 1){
@@ -60,7 +60,7 @@ export default {
 
         isdropped = 0;
 
-        setTimeout(this.displaynone, 450);       
+        setTimeout(this.displaynone, 450);
       }
     },
     displaynone() {
@@ -79,9 +79,10 @@ export default {
 <style scoped>
 
 .languagemenu {
-  background-color: whitesmoke;
-  border: 2px solid gainsboro;
+  background-color: gainsboro;
+  border: 2px solid whitesmoke;
   max-width: 200px;
+  min-width: 97px;
   max-height: 420px;
   font-size: 15px;
   margin: auto;
@@ -103,8 +104,8 @@ export default {
 .dropped {
   display: none;
   font-size: 10px;
-  background-color: skyblue;
-  border: 2px solid gainsboro;
+  background-color: lightgray;
+  border: 2px solid whitesmoke;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   text-decoration: none;
@@ -115,8 +116,8 @@ export default {
 .dropped:hover {
   display: none;
   font-size: 10px;
-  background-color: lightblue;
-  border: 2px solid gainsboro;
+  background-color: gainsboro;
+  border: 2px solid whitesmoke;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   text-decoration: none;
@@ -125,16 +126,16 @@ export default {
 }
 
 .dropper {
-  background-color: deepskyblue;
-  border: 2px solid gainsboro;
+  background-color: lightgray;
+  border: 2px solid whitesmoke;
   color: white;
   margin: 0px 0px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .dropper:hover {
-  background-color: lightskyblue;
-  border: 2px solid gainsboro;
+  background-color: gainsboro;
+  border: 2px solid whitesmoke;
   color: white;
   margin: 0px 0px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);

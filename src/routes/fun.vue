@@ -51,7 +51,7 @@ export default {
   position: reletave;
   //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
-  min-width: 1000px;
+  min-width: 600px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
   grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 1fr 10px;
   margin: auto;
@@ -67,12 +67,12 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1518px;
-  min-width: 900px;
+  min-width: 560px;
   //max-height: 836px;
   margin: 1px 0px 0px 0px;
   display: grid;
   grid-template-columns: 10px 150px 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10px 1fr 1fr 1fr 1fr 1fr;
+  //grid-template-rows: 10px 1fr 1fr 1fr 1fr 1fr;
 }
 
 .menu {
