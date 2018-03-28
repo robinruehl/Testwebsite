@@ -86,22 +86,19 @@
 </template>
 
 <script>
-
 import headercmp from "../components/headercmp";
 import footercmp from "../components/footercmp";
-
 
 export default {
   name: "Mission",
   components: {
     headercmp,
     footercmp
-  },
+  }
 };
 </script>
 
 <style scoped>
-
 #mission {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -149,7 +146,7 @@ export default {
   margin: 1px 0px 0px 0px;
 }
 
-.missiontext{
+.missiontext {
   font-size: 20px;
   background-color: white;
   border: 2px solid whitesmoke;

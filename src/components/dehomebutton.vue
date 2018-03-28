@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 export default {
   name: "debuttonhome",
   data() {
@@ -23,40 +22,39 @@ export default {
 
 
 <style scoped>
-
 .debuttonhome {
-    background-color: lightgray;
-    border: 2px solid whitesmoke;
-    color: white;
-    text-align: center;
-    text-decoration: none;  
-    display: inline-block;
-    font-size: 25px;
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-    line-height: 0px;
-    //cursor: pointer;
-    width: 80px;
-    height: 51px;
-    margin: 5px 5px;
-    position: relative;
+  background-color: lightgray;
+  border: 2px solid whitesmoke;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 0px;
+  //cursor: pointer;
+  width: 80px;
+  height: 51px;
+  margin: 5px 5px;
+  position: relative;
 }
 
-.debuttonhome:hover{
-    border-radius: 3px;
-    background-color: gainsboro;
-    border: 2px solid whitesmoke;
-    color: white;
-    text-align: center;
-    text-decoration: none;  
-    display: inline-block;
-    font-size: 25px;
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-    line-height: 0px;
-    //cursor: pointer;
-    width: 80px;
-    height: 51px;
-    margin: 5px 5px;
-    position: relative;
+.debuttonhome:hover {
+  border-radius: 3px;
+  background-color: gainsboro;
+  border: 2px solid whitesmoke;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 0px;
+  //cursor: pointer;
+  width: 80px;
+  height: 51px;
+  margin: 5px 5px;
+  position: relative;
 }
 
 .hometext {
@@ -64,7 +62,7 @@ export default {
 }
 
 .p1 {
-  font-size: 21px
+  font-size: 21px;
 }
 
 .cancerlink {

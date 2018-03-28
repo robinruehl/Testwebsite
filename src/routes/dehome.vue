@@ -30,14 +30,12 @@ export default {
     slidercmp,
     sidebarcmp,
     deheadercmp,
-    footercmp,
-
-  },
+    footercmp
+  }
 };
 </script>
 
 <style scoped>
-
 #dehome {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -103,5 +101,4 @@ export default {
 .footerapp {
   margin: 0px 30px 0px 30px;
 }
-
 </style>

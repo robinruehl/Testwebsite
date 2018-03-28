@@ -81,7 +81,6 @@
 </template>
 
 <script>
-
 import csidebarcmp from "../components/csidebarcmp";
 import headercmp from "../components/headercmp";
 import footercmp from "../components/footercmp";
@@ -92,12 +91,11 @@ export default {
     csidebarcmp,
     headercmp,
     footercmp
-  },
+  }
 };
 </script>
 
 <style scoped>
-
 #creator {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -177,5 +175,4 @@ export default {
 .footerapp {
   margin: 10px 30px 0px 30px;
 }
-
 </style>

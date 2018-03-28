@@ -184,7 +184,8 @@ export default {
   margin: 4px 7px;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 </style>

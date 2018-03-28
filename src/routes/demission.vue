@@ -34,7 +34,6 @@
 </template>
 
 <script>
-
 import deheadercmp from "../components/deheadercmp";
 import footercmp from "../components/footercmp";
 
@@ -43,12 +42,11 @@ export default {
   components: {
     deheadercmp,
     footercmp
-  },
+  }
 };
 </script>
 
 <style scoped>
-
 #demission {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -95,7 +93,7 @@ export default {
   margin: 1px 0px 0px 0px;
 }
 
-.missiontext{
+.missiontext {
   background-color: white;
   border: 2px solid whitesmoke;
   margin: 10px;
@@ -126,5 +124,4 @@ export default {
 .footerapp {
   margin: 10px 30px 0px 30px;
 }
-
 </style>

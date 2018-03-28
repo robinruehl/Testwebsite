@@ -125,13 +125,11 @@ export default {
       msg: "placeholder"
     };
   },
-  methods: {
-  },
+  methods: {}
 };
 </script>
 
 <style scoped>
-
 .funcenter {
   margin: 5px 10px;
   display: flex;
@@ -139,7 +137,7 @@ export default {
   justify-content: center;
 }
 
-.element{
+.element {
   margin: 5px;
   background-color: white;
   border: 2px solid gainsboro;
@@ -202,7 +200,6 @@ export default {
   text-align: left;
 }
 
-
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 0.4s;
@@ -211,13 +208,25 @@ export default {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4; margin: -10px 0px}
-  to {opacity: 1; margin: 14px 0px}
+  from {
+    opacity: 0.4;
+    margin: -10px 0px;
+  }
+  to {
+    opacity: 1;
+    margin: 14px 0px;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .3; margin: -10px 0px} 
-  to {opacity: 1; margin: 15px 0px}
+  from {
+    opacity: 0.3;
+    margin: -10px 0px;
+  }
+  to {
+    opacity: 1;
+    margin: 15px 0px;
+  }
 }
 
 .cancerlink {
@@ -228,5 +237,4 @@ export default {
 .spacer {
   min-height: 000px;
 }
-
 </style>

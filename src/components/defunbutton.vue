@@ -21,7 +21,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .debuttonfun {
   background-color: lightgray;
   border: 2px solid whitesmoke;

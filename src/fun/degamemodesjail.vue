@@ -11,13 +11,116 @@
             <p class = "Header1">
               Jailbreak
             </p>
-            <p class = "Header2">
-              
-            </p>
           </div>
           <div class = "textbody">
             <p align = left>
-            
+              Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
             </p>
           </div>  
         </div>
@@ -42,7 +145,7 @@ export default {
     defuncentercmp,
     deheadercmp,
     footercmp
-  },
+  }
 };
 </script>
 
@@ -60,10 +163,11 @@ export default {
   display: grid;
   position: reletave;
   max-width: 1580px;
-  min-width: 1000px;
+  //min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
-  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 10px;
+  //grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 10px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .center {
@@ -75,12 +179,12 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1518px;
-  min-width: 900px;
-  max-height: 836px;
+  //min-width: 900px;
+  //max-height: 836px;
   margin: 1px 0px 0px 0px;
   display: grid;
   grid-template-columns: 10px 150px 1fr 1fr 1fr 1fr;
-  grid-template-rows: 10px 1fr 1fr 1fr 1fr 1fr;
+  //grid-template-rows: 10px 1fr 1fr 1fr 1fr 1fr;
 }
 
 .demenu {
@@ -95,7 +199,7 @@ export default {
   display: grid;
   margin: 10px;
   grid-template-column: 20% 20% 20% 20%;
-  grid-template-rows: 15% 10px 1fr 1fr 1fr 1fr;
+  //grid-template-rows: 15% 10px 1fr 1fr 1fr 1fr;
   border: 2px solid gainsboro;
   box-shadow: -1px -1px 1px 1px #888888;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -108,32 +212,10 @@ export default {
   margin: 10px;
 }
 
-.Header1 {
-  font-size: 50px;
-  margin: 0px;
-}
-
-.Header2 {
-  font-size: 28px;
-  margin: 0px;
-}
-
 .textbody {
   grid-column: 1/4;
   grid-row: 3/6;
   margin: 10px;
-}
-
-.img1 {
-  grid-column: 4/5;
-  grid-row: 3/4;
-  margin: 30px 10px 0px 0px;
-}
-
-.imgdesc {
-  grid-column: 4/5;
-  grid-row: 4/5;
-  margin: 10px 10px 0px 0px;
 }
 
 .headerapp {
@@ -147,7 +229,6 @@ export default {
 }
 
 .footerapp {
-  margin: 0px 30px 0px 30px;
+  margin: 10px 30px 0px 30px;
 }
-
 </style>

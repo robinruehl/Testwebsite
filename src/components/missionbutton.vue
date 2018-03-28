@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 export default {
   name: "buttonmission",
   data() {
@@ -23,45 +22,43 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .buttonmission {
-    background-color: gainsboro;
-    border: 2px solid whitesmoke;
-    color: white;
-    text-align: left;
-    text-decoration: none;  
-    display: inline-block;
-    font-size: 25px;
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-    line-height: 0px;
-    width: 130px;
-    height: 30px;
-    margin: 15px 5px;
-    //top: -10px;
-    position: relative;
+  background-color: gainsboro;
+  border: 2px solid whitesmoke;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 0px;
+  width: 130px;
+  height: 30px;
+  margin: 15px 5px;
+  //top: -10px;
+  position: relative;
 }
 
 .buttonmission:hover {
-    background-color: whitesmoke;
-    border-radius: 3px;
-    border: 2px solid whitesmoke;
-    color: white;
-    text-align: left;
-    text-decoration: none;  
-    display: inline-block;
-    font-size: 25px;
-    text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-    line-height: 0px;
-    width: 130px;
-    height: 30px;
-    margin: 15px 5px;
-    //top: -10px;
-    position: relative;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  border: 2px solid whitesmoke;
+  color: white;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
+  line-height: 0px;
+  width: 130px;
+  height: 30px;
+  margin: 15px 5px;
+  //top: -10px;
+  position: relative;
 }
 
-
 .text1 {
-   margin: 15px 3px;
+  margin: 15px 3px;
 }
 
 .text2 {

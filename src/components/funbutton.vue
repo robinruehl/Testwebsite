@@ -21,7 +21,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .buttonfun {
   background-color: gainsboro;
   border: 2px solid whitesmoke;
@@ -37,7 +36,6 @@ export default {
   height: 30px;
   margin: 15px 5px;
   position: relative;
-
 }
 
 .buttonfun:hover {
@@ -55,7 +53,6 @@ export default {
   height: 30px;
   margin: 15px 5px;
   position: relative;
-
 }
 
 .funtext {

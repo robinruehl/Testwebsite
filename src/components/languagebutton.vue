@@ -13,7 +13,6 @@
 </template>
 
 <script>
-
 var isdropped = 0;
 
 export default {
@@ -28,34 +27,37 @@ export default {
       var i;
       var dropdownd = document.getElementsByClassName("dropdown");
       var dropped = document.getElementsByClassName("dropped");
-      
+
       for (i = 0; i < dropped.length; i++) {
-        dropped[i].style.display = "none";  
-      };
+        dropped[i].style.display = "none";
+      }
 
       for (i = 0; i < 2; i++) {
-        dropped[(dropdownd.length * (content - 1)) + i].style.display = "block";
-      };
-      
-
+        dropped[dropdownd.length * (content - 1) + i].style.display = "block";
+      }
     },
     setcontent(n) {
       var i;
       var dropdownd = document.getElementsByClassName("dropdown");
       var dropped = document.getElementsByClassName("dropped");
 
-      if (isdropped < 1){
+      if (isdropped < 1) {
         isdropped = 1;
 
         for (i = 0; i < dropped.length; i++) {
-          dropped[i].className = dropped[i].className.replace(" fadeout", " fadein");
+          dropped[i].className = dropped[i].className.replace(
+            " fadeout",
+            " fadein"
+          );
         }
 
         this.showcontent(n);
       } else {
-        
         for (i = 0; i < dropped.length; i++) {
-          dropped[i].className = dropped[i].className.replace(" fadein", " fadeout");
+          dropped[i].className = dropped[i].className.replace(
+            " fadein",
+            " fadeout"
+          );
         }
 
         isdropped = 0;
@@ -69,15 +71,13 @@ export default {
 
       for (i = 0; i < dropped.length; i++) {
         dropped[i].style.display = "none";
-      };
-    },
-  },
-
+      }
+    }
+  }
 };
 </script>
 
 <style scoped>
-
 .languagemenu {
   background-color: gainsboro;
   border: 2px solid whitesmoke;
@@ -150,13 +150,29 @@ export default {
 }
 
 @-webkit-keyframes fadein {
-  from {opacity: .4; margin: -6x 0px; line-height: 0.4;}
-  to {opacity: 1; margin: 0px 0px; line-height: 1;}
+  from {
+    opacity: 0.4;
+    margin: -6x 0px;
+    line-height: 0.4;
+  }
+  to {
+    opacity: 1;
+    margin: 0px 0px;
+    line-height: 1;
+  }
 }
 
 @keyframes fadein {
-  from {opacity: .3; margin: -5px 0px; line-height: 0.4;} 
-  to {opacity: 1; margin: 0px 0px; line-height: 1;}
+  from {
+    opacity: 0.3;
+    margin: -5px 0px;
+    line-height: 0.4;
+  }
+  to {
+    opacity: 1;
+    margin: 0px 0px;
+    line-height: 1;
+  }
 }
 
 .fadeout {
@@ -167,13 +183,29 @@ export default {
 }
 
 @-webkit-keyframes fadeout {
-  from {opacity: 1; margin: 0px 0px; line-height: 1;}
-  to {opacity: 0.1; margin: -6px 0px; line-height: 0.4;}
+  from {
+    opacity: 1;
+    margin: 0px 0px;
+    line-height: 1;
+  }
+  to {
+    opacity: 0.1;
+    margin: -6px 0px;
+    line-height: 0.4;
+  }
 }
 
 @keyframes fadeout {
-  from {opacity: 1; margin: 0px 0px; line-height: 1;} 
-  to {opacity: 0.1; margin: -5px 0px; line-height: 0.3;}
+  from {
+    opacity: 1;
+    margin: 0px 0px;
+    line-height: 1;
+  }
+  to {
+    opacity: 0.1;
+    margin: -5px 0px;
+    line-height: 0.3;
+  }
 }
 
 .cancerlink {

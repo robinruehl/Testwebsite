@@ -22,12 +22,11 @@ export default {
 
 
 <style scoped>
-
 .debuttoncreator {
   background-color: lightgray;
   border: 2px solid whitesmoke;
   color: white;
-  text-decoration: none;  
+  text-decoration: none;
   display: inline-block;
   font-size: 25px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
@@ -36,7 +35,6 @@ export default {
   height: 30px;
   margin: 15px 5px;
   position: relative;
-
 }
 
 .debuttoncreator:hover {
@@ -44,7 +42,7 @@ export default {
   border-radius: 3px;
   border: 2px solid whitesmoke;
   color: white;
-  text-decoration: none;  
+  text-decoration: none;
   display: inline-block;
   font-size: 25px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
@@ -53,7 +51,6 @@ export default {
   height: 30px;
   margin: 15px 5px;
   position: relative;
-
 }
 
 .creatortext {
@@ -61,7 +58,7 @@ export default {
 }
 
 .text1 {
-   margin: 15px 2px;
+  margin: 15px 2px;
 }
 
 .text2 {

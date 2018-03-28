@@ -47,9 +47,6 @@
 </template>
 
 <script>
-
-
-
 export default {
   name: "csidebarcmp",
   data() {
@@ -57,15 +54,12 @@ export default {
       msg: "placeholder"
     };
   },
-  components: {
-
-  }
+  components: {}
 };
 </script>
 
 
 <style >
-
 #csidebar {
   border-radius: 0px 0px 0px 0px;
   background-color: gainsboro;
@@ -79,7 +73,7 @@ export default {
   border-width: 2x;
   margin: auto;
   //padding: auto;
-  box-shadow: 1px -1px 1px 1px #888888
+  box-shadow: 1px -1px 1px 1px #888888;
 }
 
 .titel {
@@ -103,7 +97,7 @@ export default {
   //padding: 5px;
 }
 
-.element{
+.element {
   min-height: 60px;
   max-height: 150px;
   min-width: 100px;
@@ -116,5 +110,4 @@ export default {
   grid-template-columns: 100px 50px 1fr;
   grid-template-rows: 60px 60px;
 }
-
 </style>

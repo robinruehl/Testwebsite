@@ -21,7 +21,6 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 .buttoneng {
   background-color: whitesmoke;
   border: 2px solid whitesmoke;

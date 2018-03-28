@@ -32,12 +32,11 @@ export default {
     sidebarcmp,
     headercmp,
     footercmp
-  },
+  }
 };
 </script>
 
 <style scoped>
-
 #home {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

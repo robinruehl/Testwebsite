@@ -31,12 +31,11 @@ export default {
     defuncentercmp,
     deheadercmp,
     footercmp
-  },
+  }
 };
 </script>
 
 <style scoped>
-
 #defun {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -84,7 +83,6 @@ export default {
   grid-row: 2/7;
 }
 
-
 /*.p121 {
   grid-column: 3/4;
   grid-row: 2/3;
@@ -118,5 +116,4 @@ export default {
 .footerapp {
   margin: 0px 30px 0px 30px;
 }
-
 </style>

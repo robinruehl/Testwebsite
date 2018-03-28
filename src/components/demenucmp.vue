@@ -43,7 +43,6 @@
 </template>
 
 <script>
-
 var isdroped = 0;
 var is1;
 var is2;
@@ -65,65 +64,68 @@ export default {
       var droper = document.getElementsByClassName("droper");
 
       for (i = 0; i < droped.length; i++) {
-        droped[i].className = droped[i].className.replace(" fadeout", " fadein");
-      };
+        droped[i].className = droped[i].className.replace(
+          " fadeout",
+          " fadein"
+        );
+      }
 
-      droper[(content-1)].innerHTML = droper[(content-1)].innerHTML.replace("⊕", "⊗");
+      droper[content - 1].innerHTML = droper[content - 1].innerHTML.replace(
+        "⊕",
+        "⊗"
+      );
 
       for (i = 0; i < 4; i++) {
-        droped[(dropdown.length * (content - 1)) + i].style.display = "block";
-      };
-      
-      
+        droped[dropdown.length * (content - 1) + i].style.display = "block";
+      }
     },
     setcontent(n) {
-      
-      if (n === 1 && is1 === 1 ){
+      if (n === 1 && is1 === 1) {
         is1 = 0;
-        
+
         setTimeout(this.displaynotthisone(1), 450);
-      } else if (n === 2 && is2 === 1 ){
+      } else if (n === 2 && is2 === 1) {
         is2 = 0;
-        
+
         setTimeout(this.displaynotthisone(2), 450);
-      } else if (n === 3 && is3 === 1 ){
+      } else if (n === 3 && is3 === 1) {
         is3 = 0;
-        
+
         setTimeout(this.displaynotthisone(3), 450);
-      } else if (n === 4 && is4 === 1 ){
+      } else if (n === 4 && is4 === 1) {
         is4 = 0;
-        
+
         setTimeout(this.displaynotthisone(4), 450);
       } else if (n === 1) {
         is1 = 1;
         isdroped = n;
-        
+
         setTimeout(this.showcontent(n), 500);
       } else if (n === 2) {
         is2 = 1;
         isdroped = n;
-        
+
         setTimeout(this.showcontent(n), 500);
       } else if (n === 3) {
         is3 = 1;
         isdroped = n;
-        
+
         setTimeout(this.showcontent(n), 500);
       } else if (n === 4) {
         is4 = 1;
         isdroped = n;
-        
+
         setTimeout(this.showcontent(n), 500);
       }
-      
-        /*isdroped = n;
+
+      /*isdroped = n;
         for (i = 0; i < droped.length; i++) {
           droped[(dropdown.length * (n - 1)) + i].className = droped[(dropdown.length * (n - 1)) + i].className.replace(" fadein", " fadeout");
         }*/
-        
-        //setTimeout(this.displaynotthisone(isdroped), 450);
 
-        /*else if (isdroped === n){
+      //setTimeout(this.displaynotthisone(isdroped), 450);
+
+      /*else if (isdroped === n){
         
         for (i = 0; i < droped.length; i++) {
           droped[(dropdown.length * (n - 1)) + i].className = droped[(dropdown.length * (n - 1)) + i].className.replace(" fadein", " fadeout");
@@ -136,11 +138,10 @@ export default {
     displaynone() {
       var i;
       var droped = document.getElementsByClassName("droped");
-      
 
       for (i = 0; i < droped.length; i++) {
         droped[i].style.display = "none";
-      };
+      }
     },
     displaynotthisone(n) {
       var i;
@@ -148,18 +149,17 @@ export default {
       var dropdown = document.getElementsByClassName("dropdown");
       var droper = document.getElementsByClassName("droper");
 
-      droper[(n-1)].innerHTML = droper[(n-1)].innerHTML.replace("⊗", "⊕");
-      
+      droper[n - 1].innerHTML = droper[n - 1].innerHTML.replace("⊗", "⊕");
+
       for (i = 0; i < 4; i++) {
-        droped[(dropdown.length * (n - 1)) + i].style.display = "none";
-      };
-    },
-  },
+        droped[dropdown.length * (n - 1) + i].style.display = "none";
+      }
+    }
+  }
 };
 </script>
 
 <style scoped>
-
 .demenu {
   background-color: whitesmoke;
   border: 2px solid gainsboro;
@@ -229,13 +229,29 @@ export default {
 }
 
 @-webkit-keyframes fadein {
-  from {opacity: .4; margin: 0px 0px 0 5px; line-height: 0.4;}
-  to {opacity: 1; margin: 16px 0px 0 5px; line-height: 1.3;}
+  from {
+    opacity: 0.4;
+    margin: 0px 0px 0 5px;
+    line-height: 0.4;
+  }
+  to {
+    opacity: 1;
+    margin: 16px 0px 0 5px;
+    line-height: 1.3;
+  }
 }
 
 @keyframes fadein {
-  from {opacity: .3; margin: 0px 0px 0 5px; line-height: 0.4;} 
-  to {opacity: 1; margin: 16px 0px 0 5px; line-height: 1.3;}
+  from {
+    opacity: 0.3;
+    margin: 0px 0px 0 5px;
+    line-height: 0.4;
+  }
+  to {
+    opacity: 1;
+    margin: 16px 0px 0 5px;
+    line-height: 1.3;
+  }
 }
 
 .fadeout {
@@ -246,13 +262,29 @@ export default {
 }
 
 @-webkit-keyframes fadeout {
-  from {opacity: 1; margin: 16px 0px; line-height: 1.3;}
-  to {opacity: 0.1; margin: -6px 0px; line-height: 0;}
+  from {
+    opacity: 1;
+    margin: 16px 0px;
+    line-height: 1.3;
+  }
+  to {
+    opacity: 0.1;
+    margin: -6px 0px;
+    line-height: 0;
+  }
 }
 
 @keyframes fadeout {
-  from {opacity: 1; margin: 16px 0px; line-height: 1.3;} 
-  to {opacity: 0.1; margin: -6px 0px; line-height: 0;}
+  from {
+    opacity: 1;
+    margin: 16px 0px;
+    line-height: 1.3;
+  }
+  to {
+    opacity: 0.1;
+    margin: -6px 0px;
+    line-height: 0;
+  }
 }
 
 .cancerlink {
