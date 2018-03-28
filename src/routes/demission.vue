@@ -19,7 +19,7 @@
             Ich hatte die Idee eine Datenbank über spaßige Sachen, die man in Counterstrike machen kann, zu erstellen. 
             <br>
             <br>
-            Es geht ja schon seit längerer Zeit herrum, dass viele Spieler sich jetzt zwingen müssen Counterstrike zu spielen, jedoch bleibt die Spielerzahl immernoch stabil. <br>
+            Es geht ja schon seit längerer Zeit herrum, dass viele Spieler sagen, sie müssen sich zwingen Counterstrike zu spielen, jedoch bleibt die Spielerzahl immernoch stabil. <br>
             <br>
 
 

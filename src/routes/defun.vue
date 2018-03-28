@@ -31,11 +31,12 @@ export default {
     defuncentercmp,
     deheadercmp,
     footercmp
-  }
+  },
 };
 </script>
 
 <style scoped>
+
 #defun {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -67,6 +68,7 @@ export default {
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1518px;
   min-width: 560px;
+  //max-height: 836px;
   margin: 1px 0px 0px 0px;
   display: grid;
   grid-template-columns: 10px 150px 1fr 1fr 1fr 1fr;
@@ -75,12 +77,12 @@ export default {
 
 .demenu {
   grid-column: 2/3;
-  grid-row: 2/2;
+  //grid-row: 2/5;
 }
 
 .funcenter {
   grid-column: 3/7;
-  grid-row: 2/7;
+  //grid-row: 2/7;
 }
 
 /*.p121 {
@@ -103,7 +105,7 @@ export default {
   grid-row: 2/3;
 }*/
 
-.deheaderapp {
+.headerapp {
   background-color: white;
   border: solid;
   color: whitesmoke;
@@ -116,4 +118,5 @@ export default {
 .footerapp {
   margin: 0px 30px 0px 30px;
 }
+
 </style>

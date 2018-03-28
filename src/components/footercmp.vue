@@ -1,6 +1,8 @@
 <template>
   <div id="footercmp">
-    <p></p>
+    <p class = "funbase">CSGO-funbase</p>
+    <p class = "database">A Counterstrike databese <br> about having fun</p>
+    <p class = "database"></p>
   </div>
 </template>
 
@@ -22,9 +24,7 @@ export default {
   border-radius: 0 0 10px 10px;
   background-color: gainsboro;
   margin: auto;
-  display: grid;
-  grid-template-columns: 20px 200px 20px 200px 20px 200px 20px 200px 20px;
-  grid-template-rows: 20px 20px 20px;
+  display: flex;
   border: solid;
   color: whitesmoke;
   border-left-width: 2px;
@@ -34,5 +34,22 @@ export default {
   box-shadow: 0px 1px 1px 2px #888888;
   max-width: 1520px;
   //min-width: 934px;
+  min-height: 70px;
+}
+
+.funbase {
+  margin: auto;
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  color: white;
+}
+
+.database {
+  margin: auto;
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  color: white;
 }
 </style>

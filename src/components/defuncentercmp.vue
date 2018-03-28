@@ -1,6 +1,6 @@
 <template>
   <div class = "defuncenter">
-
+    
     <div class = "element size2 element1">
       <router-link :to="{name: 'DeTest1'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
@@ -118,6 +118,9 @@
 </template>
 
 <script>
+
+import demenucmp from "../components/demenucmp";
+
 export default {
   name: "defuncentercmp",
   data() {
@@ -125,7 +128,12 @@ export default {
       msg: "placeholder"
     };
   },
-  methods: {}
+  methods: {
+
+  },
+  components: {
+    demenucmp,
+  }
 };
 </script>
 

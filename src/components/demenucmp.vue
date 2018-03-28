@@ -165,10 +165,12 @@ export default {
   border: 2px solid gainsboro;
   max-width: 200px;
   font-size: 25px;
-  margin: 10px 0px;
   box-shadow: -1px -1px 1px 1px #888888;
   color: black;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 .dropdown {
