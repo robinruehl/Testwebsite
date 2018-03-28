@@ -154,11 +154,14 @@ export default {
 .textheader {
   font-size: 30px;
   margin: 20px;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
 }
 
 .textbody {
   font-size: 20px;
   margin: 20px;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+
 }
 
 .deheaderapp {
