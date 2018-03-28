@@ -11,7 +11,7 @@
 
     <div class = "element size2 element2">
       <router-link :to="{name: 'DeSurf'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/64fb04b237957af713b8b042f4bb30af242d14f8/src/assets/surf.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Surf </p>
       <p class = "description"> Do you like flying around at mach 1? </p>
