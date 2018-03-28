@@ -4,8 +4,7 @@
     <buttonfun/>
     <buttonmission/>
     <buttoncreator/>
-    <buttonde/>
-    <buttoneng/>
+    <languagebutton/>
   </div>
 </template>
 
@@ -16,6 +15,7 @@ import buttonmission from "./missionbutton";
 import buttoncreator from "./creatorbutton";
 import buttonde from "./debutton";
 import buttoneng from "./engbutton";
+import languagebutton from "../components/languagebutton";
 
 export default {
   name: "deheadercmp",
@@ -31,6 +31,7 @@ export default {
     buttoncreator,
     buttonde,
     buttoneng,
+    languagebutton,
   }
 };
 </script>

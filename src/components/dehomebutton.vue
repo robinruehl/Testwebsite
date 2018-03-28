@@ -25,7 +25,7 @@ export default {
 <style scoped>
 
 .debuttonhome {
-    background-color: whitesmoke;
+    background-color: gainsboro;
     border: 2px solid whitesmoke;
     color: white;
     text-align: center;
@@ -43,7 +43,7 @@ export default {
 
 .debuttonhome:hover{
     border-radius: 3px;
-    background-color: gainsboro;
+    background-color: whitesmoke;
     border: 2px solid whitesmoke;
     color: white;
     text-align: center;

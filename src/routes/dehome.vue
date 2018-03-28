@@ -30,7 +30,8 @@ export default {
     slidercmp,
     sidebarcmp,
     deheadercmp,
-    footercmp
+    footercmp,
+
   },
 };
 </script>

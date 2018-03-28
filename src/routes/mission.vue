@@ -17,6 +17,8 @@
             My mission is simple. <br>
             Somehow restore the fun in Counterstrike Global-Offensive. <br>
             And that is what I then did. I thought up this idea of a database about fun things to do in Counterstrike Global Offensive. <br>
+            <br>
+            You will find information about 
           </p>
         </div>
       </div>

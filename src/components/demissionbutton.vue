@@ -25,7 +25,7 @@ export default {
 <style scoped>
 
 .debuttonmission {
-    background-color: whitesmoke;
+    background-color: gainsboro;
     border: 2px solid whitesmoke;
     color: white;
     text-align: left;
@@ -42,7 +42,7 @@ export default {
 }
 
 .debuttonmission:hover {
-    background-color: gainsboro;
+    background-color: whitesmoke;
     border-radius: 3px;
     border: 2px solid whitesmoke;
     color: white;

@@ -9,9 +9,7 @@
         <sidebarcmp/>
       </div>
       <div class = "center">
-        <p class = "hometitle">
-          
-        </p>
+        
         <slidercmp/>
       </div>
     </div>
@@ -87,7 +85,7 @@ export default {
   //border: 2px solid whitesmoke;
   max-width: 300px;
   min-width: 185px;
-  margin: 0px;
+  margin: 1px 0px;
   padding: 0px;
 }
 

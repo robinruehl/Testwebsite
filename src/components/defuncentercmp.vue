@@ -133,15 +133,6 @@ export default {
 <style scoped>
 
 .defuncenter {
-  /*border: 2px solid gainsboro;
-  font-size: 25px;
-  
-  box-shadow: -1px -1px 1px 1px #888888;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  display: grid;
-  background-color: whitesmoke;
-  text-decoration: none;
-  */
   margin: 5px 10px;
   display: flex;
   flex-wrap: wrap;
@@ -210,36 +201,6 @@ export default {
   grid-row: 2/3;
   text-align: left;
 }
-
-/*.element2 {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.element2 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-.element3 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-}
-
-.element4 {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.element5 {
-  grid-column: 2/3;
-  grid-row: 2/3;
-}
-
-.element6 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-}*/
 
 .fade {
   -webkit-animation-name: fade;
