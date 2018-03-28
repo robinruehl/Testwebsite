@@ -4,7 +4,7 @@
       <p>FUN</p>
     </router-link>
     <div class = "dropdown 1">
-      <p class = "gamemodes droper" @click="setcontent(1)"> &#8594; Gamemodes </p>
+      <p class = "gamemodes droper" @click="setcontent(1)"> ⊕ Gamemodes  </p>
       <router-link :to="{name: 'DeTest1'}"  class = "cancerlink">
         <p class = "droped 1 fadein"> Test Page </p>
       </router-link>
@@ -19,21 +19,21 @@
       </router-link>
     </div>
     <div class = "dropdown 2">
-      <p class = "maps droper" @click="setcontent(2)" > &#8594; Maps </p>
+      <p class = "maps droper" @click="setcontent(2)" > ⊕ Maps  </p>
       <p class = "droped 2 fadein"> test </p>
       <p class = "droped 2 fadein"> test </p>
       <p class = "droped 2 fadein"> test </p>
       <p class = "droped 2 fadein"> test </p>
     </div>
     <div class = "dropdown 3">
-      <p class = "servers droper" @click="setcontent(3)"> &#8594; Servers </p>
+      <p class = "servers droper" @click="setcontent(3)"> ⊕ Servers  </p>
       <p class = "droped 3 fadein"> test </p>
       <p class = "droped 3 fadein"> test </p>
       <p class = "droped 3 fadein"> test </p>
       <p class = "droped 3 fadein"> test </p>
     </div>
     <div class = "dropdown 4">
-      <p class = "strats droper" @click="setcontent(4)"> &#8594; Strats </p>
+      <p class = "strats droper" @click="setcontent(4)"> ⊕ Strats  </p>
       <p class = "droped 4 fadein"> test </p>
       <p class = "droped 4 fadein"> test </p>
       <p class = "droped 4 fadein"> test </p>
@@ -62,13 +62,13 @@ export default {
       var i;
       var dropdown = document.getElementsByClassName("dropdown");
       var droped = document.getElementsByClassName("droped");
-      //var droper = document.getElementsByClassName("droper");
+      var droper = document.getElementsByClassName("droper");
 
       for (i = 0; i < droped.length; i++) {
         droped[i].className = droped[i].className.replace(" fadeout", " fadein");
       };
 
-      //droper[(content - 1)].innerHTML = droper[(content - 1)].innerHTML.replace("&#8594;", "123");
+      droper[(content-1)].innerHTML = droper[(content-1)].innerHTML.replace("⊕", "⊗");
 
       for (i = 0; i < 4; i++) {
         droped[(dropdown.length * (content - 1)) + i].style.display = "block";
@@ -77,12 +77,7 @@ export default {
       
     },
     setcontent(n) {
-      var i;
-      var dropdown = document.getElementsByClassName("dropdown");
-      var droped = document.getElementsByClassName("droped");
-
       
-
       if (n === 1 && is1 === 1 ){
         is1 = 0;
         
@@ -151,9 +146,10 @@ export default {
       var i;
       var droped = document.getElementsByClassName("droped");
       var dropdown = document.getElementsByClassName("dropdown");
+      var droper = document.getElementsByClassName("droper");
 
+      droper[(n-1)].innerHTML = droper[(n-1)].innerHTML.replace("⊗", "⊕");
       
-
       for (i = 0; i < 4; i++) {
         droped[(dropdown.length * (n - 1)) + i].style.display = "none";
       };
@@ -181,6 +177,8 @@ export default {
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   margin: auto;
+  margin-left: 5px;
+  text-align: left;
 }
 
 .droped {
@@ -193,6 +191,8 @@ export default {
   text-decoration: none;
   margin: auto;
   margin-top: 15px;
+  text-align: left;
+  margin-left: 5px;
 }
 
 .droped:hover {
@@ -229,13 +229,13 @@ export default {
 }
 
 @-webkit-keyframes fadein {
-  from {opacity: .4; margin: 0px 0px 0 0; line-height: 0.4;}
-  to {opacity: 1; margin: 16px 0px 0 0; line-height: 1.3;}
+  from {opacity: .4; margin: 0px 0px 0 5px; line-height: 0.4;}
+  to {opacity: 1; margin: 16px 0px 0 5px; line-height: 1.3;}
 }
 
 @keyframes fadein {
-  from {opacity: .3; margin: 0px 0px 0 0; line-height: 0.4;} 
-  to {opacity: 1; margin: 16px 0px 0 0; line-height: 1.3;}
+  from {opacity: .3; margin: 0px 0px 0 5px; line-height: 0.4;} 
+  to {opacity: 1; margin: 16px 0px 0 5px; line-height: 1.3;}
 }
 
 .fadeout {

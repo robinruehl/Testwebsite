@@ -10,12 +10,19 @@
       <div class = "center">
         <div class = "missiontext">
           <p class = "textheader">
-
+            Meine Mission?
           </p>
-          <p align = left class = "textheader">
+          <p align = left class = "textbody">
             Meine Mission ist einfach. <br>
             Irgendwie muss ich den Spaß zurrück in das Spiel Counterstrike Global Offensive bringen. <br>
-            Und das ist, was ich dann auch hiermit machen werde. Ich hatte die Idee eine Datenbank über spaßige Sachen in Counterstrike zu erstellen. <br>
+            Und diese Seite ist dann auch mein Ansatz. 
+            Ich hatte die Idee eine Datenbank über spaßige Sachen, die man in Counterstrike machen kann, zu erstellen. 
+            <br>
+            <br>
+            Es geht ja schon seit längerer Zeit herrum, dass viele Spieler sich jetzt zwingen müssen Counterstrike zu spielen, jedoch bleibt die Spielerzahl immernoch stabil. <br>
+            <br>
+
+
           </p>
         </div>
       </div>
@@ -48,7 +55,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-width: 990px ;
+  //min-width: 990px ;
 }
 
 .maingrid {
@@ -56,10 +63,11 @@ export default {
   position: reletave;
   //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
-  min-width: 1000px;
+  //min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
-  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 10px;
+  //grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px 10px;
   margin: auto;
+  margin-top: 10px;
 }
 
 /*.sidebar {
@@ -82,18 +90,27 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1518px;
-  min-width: 900px;
-  max-height: 832px;
+  //min-width: 900px;
+  //max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
 
 .missiontext{
-  font-size: 20px;
   background-color: white;
   border: 2px solid whitesmoke;
   margin: 10px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  min-height: 808px;
+  //min-height: 808px;
+}
+
+.textheader {
+  margin: 20px;
+  font-size: 30px;
+}
+
+.textbody {
+  margin: 20px;
+  font-size: 20px;
 }
 
 .deheaderapp {
@@ -107,7 +124,7 @@ export default {
 }
 
 .footerapp {
-  margin: 0px 30px 0px 30px;
+  margin: 10px 30px 0px 30px;
 }
 
 </style>

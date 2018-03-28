@@ -4,7 +4,7 @@
       <p>FUN</p>
     </router-link>
     <div class = "dropdown 1">
-      <p class = "gamemodes droper" @click="setcontent(1)"> &#8594; Gamemodes </p>
+      <p class = "gamemodes droper" @click="setcontent(1)"> ⊕ Gamemodes </p>
       <router-link :to="{name: 'Test1'}"  class = "cancerlink">
         <p class = "droped 1 fadein"> Test Page </p>
       </router-link>
@@ -19,21 +19,21 @@
       </router-link>
     </div>
     <div class = "dropdown 2">
-      <p class = "maps droper" @click="setcontent(2)" > &#8594; Maps </p>
+      <p class = "maps droper" @click="setcontent(2)" > ⊕ Maps </p>
       <p class = "droped 2 fadein"> test </p>
       <p class = "droped 2 fadein"> test </p>
       <p class = "droped 2 fadein"> test </p>
       <p class = "droped 2 fadein"> test </p>
     </div>
     <div class = "dropdown 3">
-      <p class = "servers droper" @click="setcontent(3)"> &#8594; Servers </p>
+      <p class = "servers droper" @click="setcontent(3)"> ⊕ Servers </p>
       <p class = "droped 3 fadein"> test </p>
       <p class = "droped 3 fadein"> test </p>
       <p class = "droped 3 fadein"> test </p>
       <p class = "droped 3 fadein"> test </p>
     </div>
     <div class = "dropdown 4">
-      <p class = "strats droper" @click="setcontent(4)"> &#8594; Strats </p>
+      <p class = "strats droper" @click="setcontent(4)"> ⊕ Strats </p>
       <p class = "droped 4 fadein"> test </p>
       <p class = "droped 4 fadein"> test </p>
       <p class = "droped 4 fadein"> test </p>
@@ -74,7 +74,9 @@ export default {
         droped[(dropdown.length * (content - 1)) + i].style.display = "block";
       };
       
-      
+      var droper = document.getElementsByClassName("droper");
+
+      droper[(content-1)].innerHTML = droper[(content-1)].innerHTML.replace("⊕", "⊗");
     },
     setcontent(n) {
       var i;
@@ -153,7 +155,9 @@ export default {
       var dropdown = document.getElementsByClassName("dropdown");
 
       
+      var droper = document.getElementsByClassName("droper");
 
+      droper[(n-1)].innerHTML = droper[(n-1)].innerHTML.replace("⊗", "⊕");
       for (i = 0; i < 4; i++) {
         droped[(dropdown.length * (n - 1)) + i].style.display = "none";
       };

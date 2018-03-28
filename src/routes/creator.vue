@@ -15,7 +15,61 @@
 
           </p>
           <p class = "textbody">
-            
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+            Lorem ipsum dolor sit amet, 
+            consetetur sadipscing elitr, 
+            sed diam nonumy eirmod tempor 
+            invidunt ut labore et dolore magna 
+            aliquyam erat, sed diam voluptua. 
+            At vero eos et accusam et justo duo 
+            dolores et ea rebum. Stet clita kasd 
+            gubergren, no sea takimata sanctus 
+            est Lorem ipsum dolor sit amet. Lorem 
+            ipsum dolor sit amet, consetetur 
+            sadipscing elitr, sed diam nonumy 
+            eirmod tempor invidunt ut labore et 
+            dolore magna aliquyam erat, sed diam 
+            voluptua. At vero eos et accusam et 
+            justo duo dolores et ea rebum. Stet 
+            clita kasd gubergren, 
+            no sea takimata sanctus est Lorem ipsum 
+            dolor sit amet.
+
           </p>
         </div>
       </div>
@@ -50,7 +104,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-width: 990px ;
+  //min-width: 990px ;
 }
 
 .maingrid {
@@ -58,10 +112,11 @@ export default {
   position: reletave;
   //box-shadow: 0px 0px 1px 2px #888888;
   max-width: 1580px;
-  min-width: 1000px;
+  //min-width: 1000px;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 10px 1fr 30px;
-  grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px auto 10px;
+  //grid-template-rows: 10px 200px 10px 200px 10px 200px 10px 200px 10px auto 10px;
   margin: auto;
+  margin-top: 10px;
 }
 
 .sidebar {
@@ -71,7 +126,7 @@ export default {
   grid-row: 2 / 9;
   //border: 2px solid whitesmoke;
   max-width: 300px;
-  min-width: 145px;
+  min-width: 200px;
   margin: 0px;
   padding: 0px;
 }
@@ -85,8 +140,8 @@ export default {
   position: relative;
   box-shadow: -1px -1px 1px 1px #888888;
   max-width: 1350px;
-  min-width: 740px;
-  max-height: 832px;
+  //min-width: 740px;
+  //max-height: 832px;
   margin: 1px 0px 0px 0px;
 }
 
@@ -96,7 +151,17 @@ export default {
   margin: 10px;
   font-size: 23px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-  min-height: 808px;
+  //min-height: 808px;
+}
+
+.textheader {
+  font-size: 30px;
+  margin: 20px;
+}
+
+.textbody {
+  font-size: 20px;
+  margin: 20px;
 }
 
 .headerapp {
@@ -110,7 +175,7 @@ export default {
 }
 
 .footerapp {
-  margin: 0px 30px 0px 30px;
+  margin: 10px 30px 0px 30px;
 }
 
 </style>
