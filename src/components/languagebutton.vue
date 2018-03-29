@@ -62,7 +62,7 @@ export default {
 
         isdropped = 0;
 
-        setTimeout(this.displaynone, 450);
+        setTimeout(this.displaynone, 280);
       }
     },
     displaynone() {
@@ -144,9 +144,9 @@ export default {
 
 .fadein {
   -webkit-animation-name: fadein;
-  -webkit-animation-duration: 0.6s;
+  -webkit-animation-duration: 0.3s;
   animation-name: fadein;
-  animation-duration: 0.6s;
+  animation-duration: 0.3s;
 }
 
 @-webkit-keyframes fadein {
@@ -177,9 +177,9 @@ export default {
 
 .fadeout {
   -webkit-animation-name: fadeout;
-  -webkit-animation-duration: 0.6s;
+  -webkit-animation-duration: 0.3s;
   animation-name: fadeout;
-  animation-duration: 0.6s;
+  animation-duration: 0.3s;
 }
 
 @-webkit-keyframes fadeout {

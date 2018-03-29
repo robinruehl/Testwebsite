@@ -14,114 +14,17 @@
           </div>
           <div class = "textbody">
             <p align = left>
-              Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo 
-            dolores et ea rebum. Stet clita kasd 
-            gubergren, no sea takimata sanctus 
-            est Lorem ipsum dolor sit amet. Lorem 
-            ipsum dolor sit amet, consetetur 
-            sadipscing elitr, sed diam nonumy 
-            eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et 
-            justo duo dolores et ea rebum. Stet 
-            clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum 
-            dolor sit amet.
-            Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo 
-            dolores et ea rebum. Stet clita kasd 
-            gubergren, no sea takimata sanctus 
-            est Lorem ipsum dolor sit amet. Lorem 
-            ipsum dolor sit amet, consetetur 
-            sadipscing elitr, sed diam nonumy 
-            eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et 
-            justo duo dolores et ea rebum. Stet 
-            clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum 
-            dolor sit amet.
-            Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo 
-            dolores et ea rebum. Stet clita kasd 
-            gubergren, no sea takimata sanctus 
-            est Lorem ipsum dolor sit amet. Lorem 
-            ipsum dolor sit amet, consetetur 
-            sadipscing elitr, sed diam nonumy 
-            eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et 
-            justo duo dolores et ea rebum. Stet 
-            clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum 
-            dolor sit amet.
-            Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo 
-            dolores et ea rebum. Stet clita kasd 
-            gubergren, no sea takimata sanctus 
-            est Lorem ipsum dolor sit amet. Lorem 
-            ipsum dolor sit amet, consetetur 
-            sadipscing elitr, sed diam nonumy 
-            eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et 
-            justo duo dolores et ea rebum. Stet 
-            clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum 
-            dolor sit amet.
-            Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo 
-            dolores et ea rebum. Stet clita kasd 
-            gubergren, no sea takimata sanctus 
-            est Lorem ipsum dolor sit amet. Lorem 
-            ipsum dolor sit amet, consetetur 
-            sadipscing elitr, sed diam nonumy 
-            eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et 
-            justo duo dolores et ea rebum. Stet 
-            clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum 
-            dolor sit amet.
-            Lorem ipsum dolor sit amet, 
-            consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor 
-            invidunt ut labore et dolore magna 
-            aliquyam erat, sed diam voluptua. 
-            At vero eos et accusam et justo duo 
-            dolores et ea rebum. Stet clita kasd 
-            gubergren, no sea takimata sanctus 
-            est Lorem ipsum dolor sit amet. Lorem 
-            ipsum dolor sit amet, consetetur 
-            sadipscing elitr, sed diam nonumy 
-            eirmod tempor invidunt ut labore et 
-            dolore magna aliquyam erat, sed diam 
-            voluptua. At vero eos et accusam et 
-            justo duo dolores et ea rebum. Stet 
-            clita kasd gubergren, 
-            no sea takimata sanctus est Lorem ipsum 
-            dolor sit amet.
+              Der Spielmodus Surf ist schon seit den zeiten der ersten Iteration Counterstrikes ein liebling der Community. Er besteht aus einem Bug der Source Engine, welcher einem erlaubt an einer Wand entlang zu gleiten und dabei Geschwindigkeit aufzubauen.
+              <br>
+              In der Source Engine rutscht man eine Wand runter, wenn sie einen höheren Steigungswinkel als 45° hat, wenn man aber dann in Richtung dieser Wand läuft bleibt man an ihr hängen und rutscht nicht runter. Um sich zu beschleunigen kann man den Richtungswinkel mit dem man an die Wand guckt leicht ändern. Dabei gleicht man nicht mehr ganz den Sog der Schwerkraft aus und gleitet die Wand etwas runter und beschleunigt sich in die Entgegengesetzte Richtung - man kann also die Richtung in die man sich bewegt kontrollieren. 
+              <br>
+              Um seine Bewegung in der Luft zu kontrollieren muss man “Airstrafing” beherrschen. 
+              Wenn ein Bewegungsinput an den Server geschickt wird, beschleunigt der Server den Spieler etwas in diese Richtung. Springt der Spieler dann und geht dabei nach Links, so bewegt er sich minimal in diese Richtung, auch wenn er nicht auf dem Boden ist. Jetzt, wenn er nach links läuft und auch noch sich langsam nach links dreht, verwandelt er ein bisschen dieser linksbewegung in Vorwärtsbewegung, aber wichtiger ändert die Richtung in der er sich bewegt. Der Spieler kann sich also auch in der Luft kontrollieren.
+              <br>
+              Verbindet er jetzt die Eigenschaft der Wand mit dem Airstrafing und einem spezialisierten Parkour entsteht der Spielmodus “Surf”.
+              <br>
+              Ich selber glaube, dass er gerade so beliebt ist, weil er sehr komplex ist und schwer zu meistern. Es gibt Spieler, die tausende Stunden ihres Lebens in diesen Spielmodus investieren und immer noch besser werden können. Außerdem werden täglich neue Maps für diesen Spielmodus veröffentlicht, welches zu endlosen Stunden von Spaß führt.
+              <br>
             </p>
           </div>  
         </div>

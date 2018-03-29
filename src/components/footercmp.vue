@@ -1,7 +1,7 @@
 <template>
   <div id="footercmp">
     <p class = "funbase">CSGO-funbase</p>
-    <p class = "database">A Counterstrike databese <br> about having fun</p>
+    <p class = "database"></p>
     <p class = "database"></p>
   </div>
 </template>

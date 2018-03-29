@@ -6,7 +6,7 @@
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p >
-      <p class = "description"> This brings you to the BEST test page ever.</p>
+      <p class = "description"> Bringt dich zur Test Seite.</p>
     </div>
 
     <div class = "element size2 element2">
@@ -14,21 +14,21 @@
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/64fb04b237957af713b8b042f4bb30af242d14f8/src/assets/surf.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Surf </p>
-      <p class = "description"> Do you like flying around at mach 1? </p>
+      <p class = "description"> FIndest du es cool mit Mach 1 herum zu fliegen? </p>
     </div>
     <div class = "element size1 element3">
       <router-link :to="{name: 'DeJail'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Jail Break </p>
-      <p class = "description"> Roleplay either an inmate and try to escape the jail or an officer in Jailbreak. </p>
+      <p class = "description"> Spiele einen Insassen oder eine Wache in Jailbreak. Wirst du es schaffen dich den Wachen zu widersetzen und dem Gefängnis zu fliehen oder versagen und dabei Sterben? </p>
     </div>
     <div class = "element size2 element4">
       <router-link :to="{name: 'DeMinigame'}" class = "cancerlink">
         <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Mini Games </p>
-      <p class = "description"> Compete in minigames against your friends. </p>
+      <p class = "description"> Trete gegen deine freunde in kurzen Minispielen an. </p>
     </div>
 
     <div class = "element size1 element5">
@@ -120,6 +120,7 @@
 <script>
 
 import demenucmp from "../components/demenucmp";
+var showelements = 1;
 
 export default {
   name: "defuncentercmp",
@@ -128,9 +129,31 @@ export default {
       msg: "placeholder"
     };
   },
-  methods: {
+  /*methods: {
+    displayelement() {
+      var elementnbr = document.getElementsByClassName("element");
+      var i;
 
+      for (i = 0; i < elementnbr.length; i++) {
+        elementnbr[i].style.display = "none";
+      };
+
+      for (i = 0; i < elementnbr.length; i++) {
+        setTimeout(this.dovisi(i), 4000);
+      };
+
+    },
+    dovisi(n) {
+      var elementnbr = document.getElementsByClassName("element");
+
+      elementnbr(n).style.display = "grid";
+    },
   },
+  mounted() {
+    if (this.showelements !== 0) {
+      this.displayelement()
+    }
+  },*/
   components: {
     demenucmp,
   }
