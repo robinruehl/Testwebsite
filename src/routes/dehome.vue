@@ -10,7 +10,7 @@
       </div>
       <div class = "center" :class="{active: isActive}">
         <slidercmp/>
-        <button @click="clicker"></button>
+        <button @click="clicker">a button </button>
       </div>
       <div class = "mbar">
         <mbarcmp/>

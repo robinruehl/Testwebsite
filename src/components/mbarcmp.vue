@@ -65,7 +65,6 @@ export default {
   justify-content: center;
   border-radius: 0px 0px 0px 0px;
   background-color: gainsboro;
-  padding:13px 0px;
   border: 2px whitesmoke solid;
   margin: 10px;
   box-shadow: 0px 0px 1px 2px #888888;
@@ -75,7 +74,7 @@ export default {
   min-height: 60px;
   max-height: 150px;
   min-width: 100px;
-  max-width: 150px;
+  max-width: 160px;
 
   margin: auto;
   margin-top: 4%;
