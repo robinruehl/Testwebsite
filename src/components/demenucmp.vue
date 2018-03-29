@@ -179,7 +179,7 @@ export default {
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   margin: auto;
-  margin-left: 5px;
+  margin-right: 5px;
   text-align: left;
 }
 
@@ -191,7 +191,7 @@ export default {
   text-decoration: none;
   margin: auto;
   margin-top: 15px;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .droped:hover {
@@ -225,12 +225,12 @@ export default {
 @-webkit-keyframes fadein {
   from {
     opacity: 0.4;
-    margin: 0px 0px 0 5px;
+    margin: 0px 5px 0 0px;
     line-height: 0.4;
   }
   to {
     opacity: 1;
-    margin: 16px 0px 0 5px;
+    margin: 16px 5px 0 0px;
     line-height: 1.3;
   }
 }
@@ -238,12 +238,12 @@ export default {
 @keyframes fadein {
   from {
     opacity: 0.3;
-    margin: 0px 0px 0 5px;
+    margin: 0px 5px 0 0px;
     line-height: 0.4;
   }
   to {
     opacity: 1;
-    margin: 16px 0px 0 5px;
+    margin: 16px 5px 0 0px;
     line-height: 1.3;
   }
 }
