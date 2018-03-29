@@ -164,7 +164,7 @@ export default {
     box-shadow: 0px 0px 1px 2px #888888;
     //max-width: 1350px;
     //min-width: 410px;
-    max-height: 250px;
+    //max-height: 250px;
     margin: 1px 10px 0px 10px;
     transition: background-color 0.8s ease;
     margin-top: 34px;

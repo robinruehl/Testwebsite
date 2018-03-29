@@ -75,10 +75,10 @@ export default {
   min-height: 60px;
   max-height: 150px;
   min-width: 100px;
-  max-width: 140px;
+  max-width: 150px;
 
   margin: auto;
-  margin-top: 5px;
+  margin-top: 4%;
   background-color: white;
   border: 2px solid whitesmoke;
   display: grid;
