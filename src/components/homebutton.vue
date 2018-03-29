@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .buttonhome {
-  background-color: gainsboro;
+  background-color: lightgray;
   border: 2px solid whitesmoke;
   color: white;
   text-align: center;
@@ -40,21 +40,13 @@ export default {
 }
 
 .buttonhome:hover {
-  border-radius: 3px;
-  background-color: whitesmoke;
+  background-color: gainsboro;
   border: 2px solid whitesmoke;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 25px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-  line-height: 0px;
-  //cursor: pointer;
   width: 80px;
   height: 51px;
   margin: 5px 5px;
-  position: relative;
 }
 
 .hometext {

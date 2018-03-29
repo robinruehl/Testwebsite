@@ -31,7 +31,6 @@ export default {
   font-size: 25px;
   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0;
-
   width: 60px;
   height: 30px;
   margin: 15px 5px;
@@ -40,15 +39,8 @@ export default {
 
 .debuttonfun:hover {
   background-color: gainsboro;
-  border-radius: 3px;
   border: 2px solid whitesmoke;
-  color: white;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-
   width: 60px;
   height: 30px;
   margin: 15px 5px;

@@ -1,12 +1,12 @@
 <template>
-  <router-link :to="{name: 'Creator'}" class = "cancerlink">
-    <div type = "button" class = "buttoncreator">
+  <div type = "button" class = "buttoncreator">
+    <router-link :to="{name: 'Creator'}" class = "cancerlink">
       <div class = "creatortext">
         <p class = "text1">The</p>
         <p class = "text2">Creator</p>
       </div>
-    </div>
-  </router-link>
+    </router-link>
+  </div>
 </template>
 
 <script>
@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .buttoncreator {
-  background-color: gainsboro;
+  background-color: lightgray;
   border: 2px solid whitesmoke;
   color: white;
   text-decoration: none;
@@ -38,19 +38,11 @@ export default {
 }
 
 .buttoncreator:hover {
-  background-color: whitesmoke;
-  border-radius: 3px;
+  background-color: gainsboro;
   border: 2px solid whitesmoke;
-  color: white;
   text-decoration: none;
   display: inline-block;
   font-size: 25px;
-  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
-  line-height: 0px;
-  width: 140px;
-  height: 30px;
-  margin: 15px 5px;
-  position: relative;
 }
 
 .creatortext {

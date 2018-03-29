@@ -173,10 +173,12 @@ export default {
   border: 2px solid gainsboro;
   max-width: 200px;
   font-size: 25px;
-  margin: 10px 0px;
   box-shadow: -1px -1px 1px 1px #888888;
   color: black;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 2px rgba(200, 30, 30, 0.5);
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 .dropdown {
@@ -185,6 +187,8 @@ export default {
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   margin: auto;
+  margin-left: 5px;
+  text-align: left;
 }
 
 .droped {
@@ -192,36 +196,28 @@ export default {
   font-size: 15px;
   background-color: skyblue;
   border: 2px solid gainsboro;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   text-decoration: none;
   margin: auto;
   margin-top: 15px;
+  text-align: left;
+  margin-left: 5px;
 }
 
 .droped:hover {
-  display: none;
   font-size: 15px;
   background-color: lightblue;
-  border: 2px solid gainsboro;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  text-decoration: none;
   cursor: pointer;
 }
 
 .droper {
   background-color: deepskyblue;
   border: 2px solid gainsboro;
-  color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .droper:hover {
   background-color: lightskyblue;
   border: 2px solid gainsboro;
-  color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
@@ -235,12 +231,12 @@ export default {
 @-webkit-keyframes fadein {
   from {
     opacity: 0.4;
-    margin: 0px 0px 0 0;
+    margin: 0px 0px 0 5px;
     line-height: 0.4;
   }
   to {
     opacity: 1;
-    margin: 16px 0px 0 0;
+    margin: 16px 0px 0 5px;
     line-height: 1.3;
   }
 }
@@ -248,12 +244,12 @@ export default {
 @keyframes fadein {
   from {
     opacity: 0.3;
-    margin: 0px 0px 0 0;
+    margin: 0px 0px 0 5px;
     line-height: 0.4;
   }
   to {
     opacity: 1;
-    margin: 16px 0px 0 0;
+    margin: 16px 0px 0 5px;
     line-height: 1.3;
   }
 }

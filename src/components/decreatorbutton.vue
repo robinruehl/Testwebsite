@@ -1,12 +1,12 @@
 <template>
-  <router-link :to="{name: 'DeCreator'}" class = "cancerlink">
-    <div type = "button" class = "debuttoncreator">
+  <div type = "button" class = "debuttoncreator">
+    <router-link :to="{name: 'DeCreator'}" class = "cancerlink">
       <div class = "creatortext">
         <p class = "text1">The</p>
         <p class = "text2">Creator</p>
       </div>
-    </div>
-  </router-link>
+    </router-link>
+  </div>
 </template>
 
 <script>
@@ -39,13 +39,8 @@ export default {
 
 .debuttoncreator:hover {
   background-color: gainsboro;
-  border-radius: 3px;
   border: 2px solid whitesmoke;
-  color: white;
-  text-decoration: none;
-  display: inline-block;
   font-size: 25px;
-  text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
   line-height: 0px;
   width: 140px;
   height: 30px;

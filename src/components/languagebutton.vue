@@ -88,7 +88,6 @@ export default {
   margin: auto;
   margin-right: 5px;
   margin-left: 5px;
-  //box-shadow: -1px -1px 1px 1px #888888;
   color: black;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
@@ -118,11 +117,8 @@ export default {
   font-size: 10px;
   background-color: gainsboro;
   border: 2px solid whitesmoke;
-  color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-  text-decoration: none;
   cursor: pointer;
-  line-height: 1;
 }
 
 .dropper {
@@ -136,8 +132,6 @@ export default {
 .dropper:hover {
   background-color: gainsboro;
   border: 2px solid whitesmoke;
-  color: white;
-  margin: 0px 0px;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
