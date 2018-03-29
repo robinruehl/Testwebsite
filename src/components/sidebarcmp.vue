@@ -69,6 +69,7 @@ export default {
   grid-template-rows: ;
   border: 2px whitesmoke solid;
   margin: auto;
+  //padding: auto;
   box-shadow: 1px -1px 1px 1px #888888;
 }
 
@@ -78,6 +79,7 @@ export default {
   grid-row: 1/2;
   text-align: left;
   font-size: 30px;
+  //padding: 10px -17px;
   margin: 7px 0 0 -24px;
   line-height: 25px;
 }
@@ -89,15 +91,18 @@ export default {
   grid-column: 2/4;
   grid-row: 2/3;
   text-align: left;
+  //padding: 5px;
 }
 
 .element {
   min-height: 60px;
   max-height: 150px;
   min-width: 100px;
+  //max-width: 250px;
   margin: 5px 10px;
   background-color: white;
   border: 2px solid whitesmoke;
+  //padding: 10px 130px 10px 0px;
   display: grid;
   grid-template-columns: 100px 50px 1fr;
   grid-template-rows: 60px 60px;

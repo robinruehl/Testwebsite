@@ -8,13 +8,20 @@
       <div class = "sidebar">
         <sidebarcmp/>
       </div>
-      <div class = "center">
+      <div class = "center" :class="{active: isActive}">
         <slidercmp/>
+        <button @click="clicker"></button>
+      </div>
+      <div class = "mbar">
+        <mbarcmp/>
+      </div>
+      <div class = "mheader">
+        <mheadercmp/>
       </div>
     </div>
     <div class = "footerapp">
       <footercmp/>
-    </div>  
+    </div> 
   </div>
 </template>
 
@@ -23,6 +30,8 @@ import slidercmp from "../components/slidercmp";
 import sidebarcmp from "../components/sidebarcmp";
 import deheadercmp from "../components/deheadercmp";
 import footercmp from "../components/footercmp";
+import mbarcmp from "../components/mbarcmp";
+import mheadercmp from "../components/mheadercmp";
 
 export default {
   name: "DeHome",
@@ -30,7 +39,20 @@ export default {
     slidercmp,
     sidebarcmp,
     deheadercmp,
-    footercmp
+    footercmp,
+    mbarcmp,
+    mheadercmp
+  },
+  props: {
+    isActive: {
+      type: Boolean,
+      default: false
+    }
+  },
+  methods: {
+    clicker() {
+      this.isActive = !this.isActive;
+    }
   }
 };
 </script>
@@ -68,6 +90,11 @@ export default {
   //min-width: 410px;
   max-height: 832px;
   margin: 1px 0px 0px 0px;
+  transition: background-color 0.8s ease;
+}
+
+.active {
+  background-color: green;
 }
 
 /*.hometitle {
@@ -88,6 +115,10 @@ export default {
   padding: 0px;
 }
 
+.mbar {
+  display: none;
+}
+
 .deheaderapp {
   background-color: white;
   border: solid;
@@ -98,7 +129,77 @@ export default {
   border-bottum-width: 0px;
 }
 
+.mheader {
+  display: none;
+}
+
 .footerapp {
   margin: 0px 30px 0px 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  #dehome {
+
+  }
+
+  .maingrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: reletave;
+    //box-shadow: 0px 0px 1px 2px #888888;
+    //max-width: 1580px;
+
+    grid-template-columns: 10px 1fr 1fr 1fr 10px;
+    grid-template-rows: auto;
+    margin: auto;
+  }
+
+  .center {
+    background-color: gainsboro;
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+    border: 2px solid whitesmoke;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px 2px #888888;
+    //max-width: 1350px;
+    //min-width: 410px;
+    max-height: 250px;
+    margin: 1px 10px 0px 10px;
+    transition: background-color 0.8s ease;
+    margin-top: 34px;
+  }
+
+  .active {
+
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .mbar {
+    display: inline-block;
+    margin: auto;
+    margin-top: 0px;
+  }
+
+  .mheader {
+    display: inline-block;
+    position: fixed;
+    //background-color: black;
+    width: 100%;
+    margin-top: -10px;
+  }
+
+  .headerapp {
+    display: none;
+  }
+
+  .footerapp {
+    margin: 0px 10px 0px 10px;
+  }
+
+}
+
 </style>
