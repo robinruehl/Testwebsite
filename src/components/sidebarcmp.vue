@@ -2,42 +2,42 @@
   <div id = "sidebar">
     <div class = "element element1">
       <router-link :to="{name: 'Test1'}">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p>
       <p class = "description"> Brings you to the test page.</p>
     </div>
     <div class = "element element2">
       <router-link :to="{name: 'Test1'}">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p>
       <p class = "description"> Brings you to the test page.</p>
     </div>
     <div class = "element element3">
       <router-link :to="{name: 'Test1'}">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p>
       <p class = "description"> Brings you to the test page.</p>
     </div>
     <div class = "element element4">
       <router-link :to="{name: 'Test1'}">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p>
       <p class = "description"> Brings you to the test page.</p>
     </div>
     <div class = "element element5">
       <router-link :to="{name: 'Test1'}">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p>
       <p class = "description"> Brings you to the test page.</p>
     </div>
     <div class = "element element6">
       <router-link :to="{name: 'Test1'}">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 5px 25px 5px 0px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p>
       <p class = "description"> Brings you to the test page.</p>

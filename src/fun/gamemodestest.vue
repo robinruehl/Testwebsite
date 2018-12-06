@@ -53,7 +53,7 @@
              feugait nulla facilisi. Lorem ipsum dolor sit amet,
             </p>
           </div>  
-          <img class = "img1" src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style ="max-width:200px;"/>
+          <img class = "img1" src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style ="max-width:200px;"/>
           <p class = "imgdesc">
             This is a blue test image.
           </p>
