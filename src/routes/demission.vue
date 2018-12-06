@@ -21,7 +21,7 @@
             <br>
             Es geht ja schon seit längerer Zeit herrum, dass viele Spieler sagen, 
             sie müssen sich zwingen Counterstrike zu spielen, jedoch bleibt die Spielerzahl eher stabil. 
-            <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/1c50181eba86aa4f1888f2bd9747e0d2519467a6/src/assets/9b500aac3d0f5c892357e625a3ca6865.png" alt="" width = "600px"> <br>
+            <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@1c50181eba86aa4f1888f2bd9747e0d2519467a6/src/assets/9b500aac3d0f5c892357e625a3ca6865.png" alt="" width = "600px"> <br>
             <br>
 
 

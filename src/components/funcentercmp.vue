@@ -3,7 +3,7 @@
 
     <div class = "element size2 element1">
       <router-link :to="{name: 'Test1'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Test Page </p >
       <p class = "description"> This brings you to the BEST test page ever.</p>
@@ -11,21 +11,21 @@
 
     <div class = "element size2 element2">
       <router-link :to="{name: 'Surf'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Surf </p>
       <p class = "description"> Do you like flying around at mach 1? </p>
     </div>
     <div class = "element size1 element3">
       <router-link :to="{name: 'Jail'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Jail Break </p>
       <p class = "description"> Roleplay either an inmate and try to escape the jail or an officer in Jailbreak. </p>
     </div>
     <div class = "element size2 element4">
       <router-link :to="{name: 'Minigame'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Mini Games </p>
       <p class = "description"> Compete in minigames against your friends. </p>
@@ -33,21 +33,21 @@
 
     <div class = "element size1 element5">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description">   This should fill in the whit space and make it look less lacking.   </p>
     </div>
     <div class = "element size2 element6">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description">   This should fill in the whit space and make it look less lacking.   </p>
     </div>
     <div class = "element size1 element1">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description">   This should fill in the whit space and make it look less lacking.  </p>
@@ -55,21 +55,21 @@
 
     <div class = "element size2 element2">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description"> This should fill in the whit space and make it look less lacking. </p>
     </div>
     <div class = "element size2 element3">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description"> This should fill in the whit space and make it look less lacking. </p>
     </div>
     <div class = "element size2 element4">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description"> This should fill in the whit space and make it look less lacking. </p>
@@ -77,21 +77,21 @@
 
     <div class = "element size1 element5">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description">   This should fill in the whit space and make it look less lacking.   </p>
     </div>
     <div class = "element size2 element6">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description">   This should fill in the whit space and make it look less lacking.   </p>
     </div>
     <div class = "element size1 element1">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4001.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description">   This should fill in the whit space and make it look less lacking.  </p>
@@ -99,14 +99,14 @@
 
     <div class = "element size2 element2">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4002.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description"> This should fill in the whit space and make it look less lacking. </p>
     </div>
     <div class = "element size2 element3">
       <router-link :to="{name: 'Home'}" class = "cancerlink">
-        <img src="https://rawgit.com/robinruehl/CSGOFUNBASE/9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
+        <img src="https://cdn.jsdelivr.net/gh/robinruehl/CSGOFUNBASE@9f15c4a2faced31cf48c7b681dfb3f9a3a330fdf/src/assets/test4003.jpg" style= "margin: 10px; max-width: 60px;">
       </router-link>
       <p class = "titel"> Titel </p>
       <p class = "description"> This should fill in the whit space and make it look less lacking. </p>
